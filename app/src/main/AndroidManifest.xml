@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="substratum.theme.template"
+          android:installLocation="internalOnly">
+
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+	
+	<uses-feature
+        android:name="projekt.substratum.theme"
+        android:required="false" /> <!-- Set to true for block to be enabled -->
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/ThemeName"
+        android:supportsRtl="true"
+        android:theme="@style/DialogStyle"
+        tools:node="replace"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".SubstratumLauncher">
+            <intent-filter>
+                <action android:name="projekt.substratum.THEME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="Substratum_Legacy"
+            android:value="true"/>
+        <meta-data
+            android:name="Substratum_Name"
+            android:value="@string/ThemeName"/>
+        <meta-data
+            android:name="Substratum_Author"
+            android:value="@string/ThemeAuthor"/>
+        <meta-data
+            android:name="Substratum_Email"
+            android:value=""/> <!-- Insert your email for bug reports -->
+        <meta-data
+            android:name="Substratum_Samsung"
+            android:value="true"/>
+        <!-- Do you support Stock and Theme Ready Gapps? -> all -->
+        <!-- Do you support Theme Ready but not Stock Gapps? -> ready -->
+        <!-- Do you support Stock but not Theme Ready Gapps? -> stock -->
+        <meta-data
+            android:name="Substratum_ThemeReady"
+            android:value="all"/> <!-- Only pick one! -->
+
+        <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
+        <meta-data
+            android:name="Substratum_Plugin"
+            android:value="7.0.6"/>
+
+    </application>
+
+</manifest>
