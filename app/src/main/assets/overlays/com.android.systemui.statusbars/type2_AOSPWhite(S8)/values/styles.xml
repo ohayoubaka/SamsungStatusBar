@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="keyguard_carrier_label_style">
+        <item name="android:textSize">0.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sec-roboto-condensed</item>
+    </style>
+</resources>
