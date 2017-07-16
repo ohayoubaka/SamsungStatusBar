@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="status_bar_battery_light_mode_alpha">1.00</item>
+    <item type="dimen" name="status_bar_battery_dark_mode_alpha">1.00</item>
+</resources>
