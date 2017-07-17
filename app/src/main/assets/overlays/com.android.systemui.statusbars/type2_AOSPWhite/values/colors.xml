@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="light_mode_icon_color_single_tone">#ffffffff</color>
-    <color name="light_mode_icon_color_dual_tone_background">#ff000000</color>
+    <color name="light_mode_icon_color_dual_tone_background">#4dffffff</color>
     <color name="light_mode_icon_color_dual_tone_fill">#ffffffff</color>
-    <color name="dark_mode_icon_color_single_tone">#ff646464</color>
-	<color name="dark_mode_icon_color_dual_tone_fill">#ff646464</color>
-	<color name="status_bar_battery_frame_dark_color">#ff646464</color>
+    <color name="dark_mode_icon_color_single_tone">#99000000</color>
+	<color name="dark_mode_icon_color_dual_tone_fill">#7a000000</color>
+	<color name="status_bar_battery_frame_dark_color">#7a000000</color>
+	<color name="dark_mode_icon_color_dual_tone_background">#3d000000</color>
 </resources>
