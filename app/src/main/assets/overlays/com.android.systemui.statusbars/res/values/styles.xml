@@ -2,7 +2,6 @@
 <resources>
     <style name="keyguard_carrier_label_style">
         <item name="android:textSize">14.0dip</item>
-        <item name="android:textColor">#ffffffff</item>
         <item name="android:fontFamily">roboto-regular</item>
     </style>
 	<style name="TextAppearance.StatusBar.Clock" parent="@android:style/TextAppearance.StatusBar.Icon">
