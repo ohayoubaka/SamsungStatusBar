@@ -9,4 +9,7 @@
 	<dimen name="carrier_label_height_spn_zvv">0.0dip</dimen>
 	<dimen name="signal_cluster_margin_start">2.5dip</dimen>
 	<dimen name="status_bar_clock_starting_padding">6.0dip</dimen>
+	<dimen name="battery_text_size">14.0dip</dimen>
+	<dimen name="status_bar_battery_icon_height">14.0dip</dimen>
+    <dimen name="status_bar_battery_icon_width">8.5dip</dimen>
 </resources>

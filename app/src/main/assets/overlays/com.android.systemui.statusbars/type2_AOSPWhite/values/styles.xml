@@ -6,7 +6,7 @@
         <item name="android:fontFamily">roboto-regular</item>
     </style>
 	<style name="TextAppearance.StatusBar.Clock" parent="@android:style/TextAppearance.StatusBar.Icon">
-	    <item name="android:textSize">15.0dip</item>
+	    <item name="android:textSize">14.0dip</item>
         <item name="android:fontFamily">sans-serif-medium</item>
 	</style>
 </resources>
