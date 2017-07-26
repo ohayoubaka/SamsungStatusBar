@@ -2,8 +2,8 @@
 <resources>
     <item type="dimen" name="status_bar_battery_light_mode_alpha">1.00</item>
     <item type="dimen" name="status_bar_battery_dark_mode_alpha">1.00</item>
-	<dimen name="signal_cluster_battery_padding">5.0dip</dimen>
-	<dimen name="no_signal_cluster_battery_padding">5.0dip</dimen>
+	<dimen name="signal_cluster_battery_padding">6.0dip</dimen>
+	<dimen name="no_signal_cluster_battery_padding">6.0dip</dimen>
 	<dimen name="status_bar_carrier_text_size">0.0dip</dimen>
 	<dimen name="notification_panel_carrier_label_height">0.0dip</dimen>
     <dimen name="notification_panel_carrier_label_text_size">0.0dip</dimen>
@@ -12,6 +12,4 @@
 	<dimen name="signal_cluster_margin_start">2.5dip</dimen>
 	<dimen name="status_bar_clock_starting_padding">6.0dip</dimen>
 	<item type="dimen" name="keyguard_carrier_label_text_alpha">1.00</item>
-	<dimen name="status_bar_battery_icon_height">14.0dip</dimen>
-    <dimen name="status_bar_battery_icon_width">8.5dip</dimen>
 </resources>
