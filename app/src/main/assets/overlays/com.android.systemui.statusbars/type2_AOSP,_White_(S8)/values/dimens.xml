@@ -12,4 +12,5 @@
 	<dimen name="signal_cluster_margin_start">2.5dip</dimen>
 	<dimen name="status_bar_clock_starting_padding">6.0dip</dimen>
 	<item type="dimen" name="keyguard_carrier_label_text_alpha">1.00</item>
+	<dimen name="battery_height">14.0dip</dimen>
 </resources>

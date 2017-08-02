@@ -3,8 +3,8 @@
     <color name="light_mode_icon_color_single_tone">#ffffffff</color>
     <color name="light_mode_icon_color_dual_tone_background">#4dffffff</color>
     <color name="light_mode_icon_color_dual_tone_fill">#ffffffff</color>
-    <color name="dark_mode_icon_color_single_tone">#99000000</color>
-	<color name="dark_mode_icon_color_dual_tone_fill">#7a000000</color>
-	<color name="status_bar_battery_frame_dark_color">#99000000</color>
-	<color name="dark_mode_icon_color_dual_tone_background">#3d000000</color>
+    <color name="dark_mode_icon_color_single_tone">#ff000000</color>
+	<color name="dark_mode_icon_color_dual_tone_fill">#ff000000</color>
+	<color name="status_bar_battery_frame_dark_color">#ff000000</color>
+	<color name="dark_mode_icon_color_dual_tone_background">#ff000000</color>
 </resources>
