@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="qs_tile_divider">#00000000</color>
+    <color name="qs_tile_divider_connected">#00000000</color>
+	<color name="quickpanel_button_divider_color">#00000000</color>
+	<color name="qs_bottom_area_divider_color">#00000000</color>
+	<color name="qs_detail_list_divider_color">#00000000</color>
+	<color name="bottom_bar_divider_color">#00000000</color>
+</resources>
