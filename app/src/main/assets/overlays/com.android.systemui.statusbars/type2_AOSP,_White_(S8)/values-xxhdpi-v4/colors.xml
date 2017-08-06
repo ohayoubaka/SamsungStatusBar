@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="light_mode_icon_color_single_tone">#ffffffff</color>
-    <color name="light_mode_icon_color_dual_tone_background">#4dffffff</color>
-    <color name="light_mode_icon_color_dual_tone_fill">#ffffffff</color>
-	<color name="abc_input_method_navigation_guard">#ffffffff</color>
+    <color name="abc_input_method_navigation_guard">#ffffffff</color>
     <color name="navigation_bar_icon_color">#ffffffff</color>
     <color name="light_navigation_bar_background_opaque">#ffffffff</color>
     <color name="navigation_bar_theme_background_color">#ffffffff</color>
