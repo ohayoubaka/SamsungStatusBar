@@ -12,4 +12,5 @@
     <color name="navigation_bar_icon_color_high_bound">#ffffffff</color>
     <color name="navigation_bar_icon_color_mid_bound">#ffffffff</color>
     <color name="navigation_bar_icon_color_low_bound">#ffffffff</color>
+	<color name="default_navigation_bar_icon_color">#ffffffff</color>
 </resources>
