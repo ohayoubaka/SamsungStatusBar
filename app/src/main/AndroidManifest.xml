@@ -56,6 +56,10 @@
         <meta-data
             android:name="Substratum_Plugin"
             android:value="7.0.6"/>
+			
+        <uses-library
+            android:name="touchwiz"
+            android:required="true" />
 
     </application>
 
