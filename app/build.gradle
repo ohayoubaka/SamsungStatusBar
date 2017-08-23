@@ -8,8 +8,8 @@ android {
         applicationId "com.ohayoubaka.statusbarsamsung"
         minSdkVersion 23
         targetSdkVersion 25
-        versionCode 3
-        versionName "3"
+        versionCode 4
+        versionName "4"
     }
     buildTypes {
         debug {

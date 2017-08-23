@@ -2,10 +2,7 @@
     <string name="ThemeName">Status Bar Icons for Samsung</string>
     <string name="ThemeAuthor">ohayoubaka</string>
     <string-array name="ThemeChangelog">
-        <item>v2</item>
-        <item>Status Bar Icons</item>
+        <item>Status Bar Icons (+extra)</item>
         <item>For Samsung ROMs (7.0 Nougat)</item>
-        <item>AOSP Style Icons (White/Grey)</item>
-        <item>More coming soon!</item>
     </string-array>
 </resources>
