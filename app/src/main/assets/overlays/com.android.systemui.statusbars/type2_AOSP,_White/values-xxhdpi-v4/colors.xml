@@ -4,7 +4,7 @@
     <color name="navigation_bar_icon_color">#ffffffff</color>
     <color name="light_navigation_bar_background_opaque">#ffffffff</color>
     <color name="navigation_bar_theme_background_color">#ffffffff</color>
-    <color name="light_navigation_bar_icon_color">#ffffffff</color>
+    <color name="light_navigation_bar_icon_color">#ff880000</color>
     <color name="dark_navigation_bar_white_icon_color">#ffffffff</color>
     <color name="dark_navigation_bar_icon_color">#ffffffff</color>
     <color name="dark_navigation_bar_icon_color_lockscreen">#ffffffff</color>
@@ -12,5 +12,4 @@
     <color name="navigation_bar_icon_color_high_bound">#ffffffff</color>
     <color name="navigation_bar_icon_color_mid_bound">#ffffffff</color>
     <color name="navigation_bar_icon_color_low_bound">#ffffffff</color>
-	<color name="default_navigation_bar_icon_color">#ffffffff</color>
 </resources>
