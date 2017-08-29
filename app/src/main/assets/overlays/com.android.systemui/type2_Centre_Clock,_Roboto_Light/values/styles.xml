@@ -8,4 +8,10 @@
 	    <item name="android:textSize">14.0dip</item>
         <item name="android:fontFamily">sec-roboto-light</item>
 	</style>
+	<style name="TextAppearance.StatusBar.Expanded.Clock" parent="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded">
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+	<style name="TextAppearance.StatusBar.Expanded.Date" parent="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded">
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
 </resources>
