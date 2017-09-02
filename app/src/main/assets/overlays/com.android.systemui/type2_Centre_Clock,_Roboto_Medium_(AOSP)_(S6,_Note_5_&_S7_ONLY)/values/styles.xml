@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="keyguard_carrier_label_style">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+	<style name="TextAppearance.StatusBar.Clock" parent="@android:style/TextAppearance.StatusBar.Icon">
+	    <item name="android:textSize">14.0dip</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+	</style>
+	<style name="TextAppearance.StatusBar.Expanded.Clock" parent="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="TextAppearance.StatusBar.Expanded.Date" parent="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>
