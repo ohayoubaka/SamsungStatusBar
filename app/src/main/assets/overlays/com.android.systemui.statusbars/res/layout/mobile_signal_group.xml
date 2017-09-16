@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:id="@*com.android.systemui:id/mobile_combo" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/com.android.systemui">
     <FrameLayout android:id="@*com.android.systemui:id/data_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <ImageView android:id="@*com.android.systemui:id/mobile_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         <com.android.systemui.statusbar.AnimatedImageView android:id="@*com.android.systemui:id/mobile_activity" android:layout_width="wrap_content" android:layout_height="wrap_content" />
