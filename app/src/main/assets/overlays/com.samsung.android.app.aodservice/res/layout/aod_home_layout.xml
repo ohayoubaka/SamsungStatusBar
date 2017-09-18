@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:id="@*com.samsung.android.app.aodservice:id/home_holder" android:layout_width="@*com.samsung.android.app.aodservice:dimen/aod_home_holder_height" android:layout_height="@*com.samsung.android.app.aodservice:dimen/aod_home_holder_width">
+        <ImageView android:layout_gravity="center" android:id="@*com.samsung.android.app.aodservice:id/aod_home_icon" android:layout_width="@*com.samsung.android.app.aodservice:dimen/aod_home_icon_size" android:layout_height="@*com.samsung.android.app.aodservice:dimen/aod_home_icon_size" android:src="@*com.samsung.android.app.aodservice:drawable/ic_home_button" android:scaleType="fitXY" android:tint="#ffffffff" />
+    </LinearLayout>
+</FrameLayout>
