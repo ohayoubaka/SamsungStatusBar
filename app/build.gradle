@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.ohayoubaka.statusbarsamsung"
+        applicationId "com.ohayoubaka.statusbarsamsung.donate"
         minSdkVersion 24
         targetSdkVersion 25
         versionCode 20
