@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="abc_input_method_navigation_guard">#80ffffff</color>
+    <color name="navigation_bar_icon_color">#80ffffff</color>
+    <color name="light_navigation_bar_icon_color">#80000000</color>
+    <color name="dark_navigation_bar_white_icon_color">#80ffffff</color>
+    <color name="dark_navigation_bar_icon_color">#80ffffff</color>
+    <color name="dark_navigation_bar_icon_color_lockscreen">#80ffffff</color>
+    <color name="navigation_bar_icon_color_top_bound">#80ffffff</color>
+    <color name="navigation_bar_icon_color_high_bound">#80ffffff</color>
+    <color name="navigation_bar_icon_color_mid_bound">#80ffffff</color>
+    <color name="navigation_bar_icon_color_low_bound">#80ffffff</color>
+</resources>
