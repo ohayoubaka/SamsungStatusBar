@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_useRoundIcon">true</bool>
+    <bool name="config_allowDisablingAssistDisclosure">true</bool>
+    <bool name="config_allowAllRotations">true</bool>
+    <bool name="config_customUserSwitchUi">true</bool>
+    <bool name="config_enableBurnInProtection">true</bool>
+    <bool name="config_enableLockScreenRotation">true</bool>
+    <bool name="config_freeformWindowManagement">true</bool>
+    <bool name="config_lockDayNightMode">true</bool>
+    <bool name="config_lockUiMode">true</bool>
+    <bool name="config_supportDoubleTapWake">true</bool>
+    <bool name="config_windowIsRound">true</bool>
+</resources>
