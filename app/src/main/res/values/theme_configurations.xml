@@ -25,6 +25,6 @@
     <!-- Put your theme changelog here -->
     <string-array name="ThemeChangelog">
         <item>Status Bar Icons (+extras)</item>
-        <item>For Samsung ROMs (7.0/7.1.1 Nougat)</item>
+        <item>For Samsung ROMs (7.0/7.1.1 Nougat + 8.0 Oreo)</item>
     </string-array>
 </resources>
