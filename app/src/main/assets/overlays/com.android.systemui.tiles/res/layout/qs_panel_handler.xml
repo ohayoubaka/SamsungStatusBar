@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:background="@*com.android.systemui:drawable/qs_background_primary" android:layout_width="fill_parent" android:layout_height="@*com.android.systemui:dimen/qs_panel_handler_height"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/com.android.systemui">
-    <ImageView android:id="@*com.android.systemui:id/handler_image_view" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@*com.android.systemui:drawable/quickpanel_handler" android:scaleType="fitXY" android:tint="@*com.android.systemui:color/qs_handler_color" />
-    <FrameLayout android:id="@*com.android.systemui:id/handler_cue_image_view_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content">
-        <ImageView android:id="@*com.android.systemui:id/handler_cue_image_view_top" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@*com.android.systemui:drawable/quickpanel_handler_cue_arrow" android:scaleType="fitXY" android:tint="@*com.android.systemui:color/qs_handler_color" />
-        <ImageView android:id="@*com.android.systemui:id/handler_cue_image_view_bottom" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:src="@*com.android.systemui:drawable/quickpanel_handler_cue_arrow" android:scaleType="fitXY" android:tint="@*com.android.systemui:color/qs_handler_color" />
-    </FrameLayout>
-</LinearLayout>

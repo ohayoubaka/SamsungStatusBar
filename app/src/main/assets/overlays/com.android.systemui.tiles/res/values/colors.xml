@@ -6,4 +6,5 @@
 	<color name="qs_bottom_area_divider_color">#00000000</color>
 	<color name="qs_detail_list_divider_color">#00000000</color>
 	<color name="bottom_bar_divider_color">#00000000</color>
+	<color name="handler_cue_image">#00000000</color>
 </resources>
