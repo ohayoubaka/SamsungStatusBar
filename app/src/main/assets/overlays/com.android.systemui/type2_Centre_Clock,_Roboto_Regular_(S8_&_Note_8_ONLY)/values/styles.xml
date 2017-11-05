@@ -9,6 +9,8 @@
         <item name="android:fontFamily">roboto-regular</item>
 	</style>
 	<style name="TextAppearance.StatusBar.Expanded.Clock" parent="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded">
+		<item name="android:textSize">@*com.android.systemui:dimen/qs_time_expanded_size</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_header_clock</item>
         <item name="android:fontFamily">roboto-regular</item>
     </style>
 	<style name="TextAppearance.StatusBar.Expanded.Date" parent="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded">
