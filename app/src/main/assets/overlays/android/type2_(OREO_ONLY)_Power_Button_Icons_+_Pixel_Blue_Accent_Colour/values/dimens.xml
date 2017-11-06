@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_text_size">12.5sp</dimen>
+	<dimen name="notification_title_text_size">12.5sp</dimen>
+	<dimen name="notification_header_icon_size">16.0dip</dimen>
+	<dimen name="notification_top_pad_large_text_narrow">0.0dip</dimen>
+	<dimen name="notification_min_height">120.0dip</dimen>
+</resources>
