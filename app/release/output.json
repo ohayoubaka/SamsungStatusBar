@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 [{"outputType":{"type":"APK"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":23},"path":"app-release.apk","properties":{"packageId":"com.ohayoubaka.statusbarsamsung.donate","split":"","minSdkVersion":"24"}}]
+=======
+[{"outputType":{"type":"APK"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":25},"path":"app-release.apk","properties":{"packageId":"com.ohayoubaka.statusbarsamsung","split":"","minSdkVersion":"24"}}]
+>>>>>>> 17796c084b5587efa03de5f148fa48c414195dff

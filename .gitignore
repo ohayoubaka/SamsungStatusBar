@@ -82,3 +82,4 @@ proguard/
 app/src/main/assets-temp
 
 app/release/output\.json
+app/release/output.json
