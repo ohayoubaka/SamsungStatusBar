@@ -77,7 +77,7 @@
 	<color name="qs_page_indicator_tint_color">#ff4285f4</color>
 	<color name="bottom_bar_button_text_color">#ff000000</color>
 	<color name="bottom_bar_divider_color">#00ffffff</color>
-	<color name="normal_mode_bottom_bar_bg">#00000000</color>
+	<color name="normal_mode_bottom_bar_bg">#ffe0e0e0</color>
 	<color name="tw_ic_audio_sound_icon_muted_color">#ff4285f4</color>
     <color name="tw_ic_audio_sound_icon_earshock_color">#ff4285f4</color>
 	<color name="qs_detail_description_text_color">#ff000000</color>
@@ -91,4 +91,5 @@
 	<color name="qs_grid_text">#ff000000</color>
 	<color name="switch_thumb_normal_material_dark">#ff4282ee</color>
     <color name="switch_thumb_normal_material_light">#ff4282ee</color>
+	<color name="notification_shade_background_color">#ffe0e0e0</color>
 </resources>

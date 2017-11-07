@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="navigationbar_default_color_7">#ff000000</color>
+	<color name="applock_list_divider_color">#00000000</color>
+    <color name="bottom_bar_divider_color">#00000000</color>
+    <color name="dashboard_headerbar_vertical_divider_color">#00000000</color>
+    <color name="data_usage_divider_between_used_and_litmit_fg">#00000000</color>
+    <color name="divider_color">#00000000</color>
+    <color name="edit_app_bar_divider_color">#00000000</color>
+    <color name="facelock_bixby_setupwizard_bottom_divider_color">#00000000</color>
+    <color name="font_divider_color">#00000000</color>
+    <color name="list_divider_color">#00000000</color>
+    <color name="power_saving_dialog_divider_color">#00000000</color>
+    <color name="preference_vertical_divider_color">#00000000</color>
+    <color name="qs_detail_screensaver_style_subheader_divider_color">#00000000</color>
+    <color name="section_divider_bg_color">#00000000</color>
+    <color name="section_divider_color">#00000000</color>
+    <color name="section_list_divider_color">#00000000</color>
+    <color name="setup_divider_color_dark">#00000000</color>
+    <color name="setup_divider_color_light">#00000000</color>
+    <color name="ssw_bottom_button_divider_color">#00000000</color>
+    <color name="storage_wizard_button_divider">#00000000</color>
+    <color name="sub_app_bar_divider_color">#00000000</color>
+    <color name="vzw_wifi_bottom_button_divider_color">#00000000</color>
+    <color name="wifi_divider">#00000000</color>
+    <color name="wifi_list_divider_color">#00000000</color>
+    <color name="wifi_section_divider_expand_btn_tint_color_theme">#00000000</color>
+    <color name="wifi_section_divider_expand_text_color_theme">#00000000</color>
+    <color name="wifi_sub_header_divider_bg_color_theme">#00000000</color>
 </resources>
