@@ -14,6 +14,8 @@
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 	<style name="TextAppearance.StatusBar.Expanded.Date" parent="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded">
+	    <item name="android:textSize">@*com.android.systemui:dimen/qs_time_expanded_size</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_header_date</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 </resources>
