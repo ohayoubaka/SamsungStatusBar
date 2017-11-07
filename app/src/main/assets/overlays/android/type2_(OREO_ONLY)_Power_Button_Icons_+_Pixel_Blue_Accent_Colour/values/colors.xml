@@ -67,8 +67,8 @@
     <color name="tw_loading_progress_color2">#ff4285f4</color>
 	<color name="tw_section_divider_color_mtrl">#00000000</color>
     <color name="tw_section_divider_color_mtrl_dark">#00000000</color>
-    <color name="tw_section_divider_text_color_mtrl">#00000000</color>
-    <color name="tw_section_divider_text_color_mtrl_dark">#00000000</color>
+    <color name="tw_section_divider_text_color_mtrl">#ff4285f4</color>
+    <color name="tw_section_divider_text_color_mtrl_dark">#ff4285f4</color>
 	<color name="tw_list_divider_mtrl_color">#00000000</color>
     <color name="tw_list_divider_mtrl_color_dark">#00000000</color>
 	<color name="tw_progress_color_control_activated_light">#ff6294f1</color>
