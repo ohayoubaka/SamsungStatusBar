@@ -91,4 +91,5 @@
 	<color name="qs_grid_text">#ff000000</color>
 	<color name="switch_thumb_normal_material_dark">#ff4282ee</color>
     <color name="switch_thumb_normal_material_light">#ff4282ee</color>
+	<color name="notification_shade_background_color">#ffe0e0e0</color>
 </resources>
