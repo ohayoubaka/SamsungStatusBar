@@ -26,8 +26,8 @@
     <color name="shortcut_affordance_bg">#ff4285f4</color>
 	<color name="tw_status_bar_recent_no_app_color">#ff4285f4</color>
 	<color name="notification_panel_theme_ripple_color">#ff4285f4</color>
-	<color name="qs_tile_icon_on_dim_tint_color">#ff000000</color>
-    <color name="qs_tile_icon_off_tint_color">#66000000</color>
+	<color name="qs_tile_icon_on_dim_tint_color">#ff1d1d1d</color>
+    <color name="qs_tile_icon_off_tint_color">#c41d1d1d</color>
 	<color name="status_bar_date_clock_color">#ff000000</color>
     <color name="status_bar_date_color">#ff000000</color>
 	<color name="quicksetting_ic_arrow">#ff4285f4</color>
@@ -92,4 +92,6 @@
 	<color name="switch_thumb_normal_material_dark">#ff4282ee</color>
     <color name="switch_thumb_normal_material_light">#ff4282ee</color>
 	<color name="notification_shade_background_color">#ffe0e0e0</color>
+	<color name="notification_header_bg_tw">#e0ffffff</color>
+	<color name="notification_material_background_color">#ffffffff</color>
 </resources>
