@@ -69,9 +69,9 @@
 	<color name="badge_notification_background_color">#ff4285f4</color>
 	<color name="tw_ic_audio_sound_icon_color">#ff4285f4</color>
     <color name="tw_expand_button_divider_color">#ff4285f4</color>
-    <color name="tw_volume_title_color_light">#ff000000</color>
+    <color name="tw_volume_title_color_light">#ff757575</color>
 	<color name="tw_ic_audio_setting_icon_color">#ff4285f4</color>
-	<color name="tw_cover_volume_warning_popup_text_color_light">#ff000000</color>
+	<color name="tw_cover_volume_warning_popup_text_color_light">#ff757575</color>
     <color name="tw_cover_volume_warning_popup_button_text_color_light">#ff4285f4</color>
 	<color name="recent_help_body_split_icon_color">#ff4285f4</color>
 	<color name="qs_page_indicator_tint_color">#ff4285f4</color>
