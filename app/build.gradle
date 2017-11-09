@@ -17,7 +17,6 @@ ext {
 
     // SUBSTRATUM INTERNAL VALUES: DO NOT TOUCH
 
-
     byte[] key = new byte[16]
     new Random().nextBytes(key)
     KEY = key
