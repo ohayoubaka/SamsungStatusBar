@@ -57,9 +57,9 @@
 	<color name="tw_switch_enabled_on_text_mtrl">#ff4282ee</color>
 	<color name="tw_preference_switch_divider_color_light">#00000000</color>
 	<color name="tw_switch_on_mtrl">#ff4282ee</color>
-    <color name="tw_switch_track_on_mtrl">#ffcedffb</color>
+    <color name="tw_switch_track_on_mtrl">#404282ee</color>
     <color name="tw_switch_off_mtrl">#ffececec</color>
-    <color name="tw_switch_track_off_mtrl">#ffb9b9b9</color>
+    <color name="tw_switch_track_off_mtrl">#40000000</color>
     <color name="tw_switch_dim_mtrl">#ffb9b9b9</color>
     <color name="tw_switch_track_dim_mtrl">#ffe9e9e9</color>
 	<color name="tw_loading_progress_color1">#ff4285f4</color>
