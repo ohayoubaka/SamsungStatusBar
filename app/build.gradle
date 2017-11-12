@@ -34,8 +34,8 @@ android {
         applicationId "com.ohayoubaka.statusbarsamsung"
         minSdkVersion 24
         targetSdkVersion 26
-        versionCode 25
-        versionName "25"
+        versionCode 26
+        versionName "26"
         buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
         buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
