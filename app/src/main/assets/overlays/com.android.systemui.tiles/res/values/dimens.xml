@@ -14,4 +14,7 @@
     <dimen name="card_base_cardwithlist_dividerHeight">0.0dip</dimen>
     <dimen name="notification_children_divider_height">0.0dip</dimen>
     <dimen name="notification_children_padding">0.0dip</dimen>
+	<dimen name="notification_min_height">92.0dip</dimen>
+    <dimen name="notification_min_height_legacy">92.0dip</dimen>
+	<dimen name="bottom_bar_button_text_size">14.0dip</dimen>
 </resources>
