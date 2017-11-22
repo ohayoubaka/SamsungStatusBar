@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.NotificationInfo.Button" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff252525</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*com.android.systemui:drawable/btn_borderless_rect</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+        <item name="android:layout_marginBottom">6.0dip</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sec-roboto-medium</item>
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">12.0dip</item>
+    </style>
+    <style name="TextAppearance.NotificationInfo.Header" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff252525</item>
+        <item name="android:fontFamily">sec-roboto-regular</item>
+    </style>
+</resources>
