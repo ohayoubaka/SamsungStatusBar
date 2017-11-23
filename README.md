@@ -2,16 +2,28 @@
 
 The official theme template from the team, for every prospective/current themer who wishes to join the Substratum game!
 
-There are three types of Substratum as of this date (17/6/17)
-  - Substratum OMS
-  - Substratum Samsung
-  - Substratum Legacy (RRO)
+There are six types of Substratum as of this date (18/10/17)
+  - Substratum OMS (3/7) (Marshmallow) [Marshmallow has been deprecated since 510, but it is still available]
+  - Substratum OMS (7) (Nougat)
+  - Substratum Dynamic Overlays (Stock Oreo) [Will require a rooted device, or Andromeda installed]
+  - Substratum Dynamic Overlays (Oreo)
+  - Substratum Samsung (RRO-OMS fusion) [Will require a device with the samsung plugin]
+  - Substratum Legacy (RRO) [Rooted]
 
-To get started, first of all, FORK this project on GitHub and open it up with Android Studio (We recommend to keep yourself up to date with the latest Google has to offer)
+To get started, first of all, FORK and CLONE this project on GitHub and open it up with Android Studio (We recommend to keep yourself up to date with the latest Google has to offer)
 
-## Step 0: DISABLE INSTANT RUN ON YOUR PROJECT!
+## Step 0: PRECONFIGURATIONS!
+Install the latest Android Studio Preview: https://developer.android.com/studio/preview/index.html
 
-For more information: http://stackoverflow.com/a/35169716
+Install NDK, CMAKE and LLDB from the SDK Manager: ![Alt text](https://developer.android.com/studio/images/projects/ndk-install_2-2_2x.png)
+
+Disable Instant Run: http://stackoverflow.com/a/35169716
+
+Disable activity launch on theme: 
+  - Click on the above dropdown menu in Android Studio that says `app` (by default there should be an icon of andy with an x on it)
+  - Click on `Edit configurations...`
+  - Locate "Launch Options" and instead of Default Activity, select Nothing
+  - This will now push your theme APK to your device without having to worry about build errors
 
 ## Step 1: Package Naming
 The FIRST thing you need to change is the package identifier (the name the app identifies as) to something more meaningful to you. Open up [build.gradle](app/build.gradle) and look for this line
@@ -23,46 +35,17 @@ Change this to anything you want, for instance:
 applicationId "com.yourname.themename"
 ```
 
-Change Package Name in the project structure: (optional)
-```
-  * Look at the "project panel" in android studio (the one on the left). 
-  * In the top right corner you will see a little "gear icon". 
-  * Click on it.
-  * in the dialog which opens click on "Compact Empty Middle Packages".
-  * Select the "substratum" folder (in JAVA/com/ and rightclick it. 
-  * Choose "refactor" and then "rename".
-  * A warning window will pop up. Just click on "Rename package".
-  * Enter the desired first part of your package name(should be same as that in applicationId of build.gradle) and click refactor.
-  * At the bottom of the screen a refactoring preview will appear. Just click on "DO REFACTOR" at the left corner. <br/> <br/>
-  * Do the same with the theme and template folders, name it same as the name in applicationId of build.gradle.
-```
-
-For more information: http://stackoverflow.com/a/29092698
+Change Package Name in the project structure (optional):
+  - First follow the instructions here http://stackoverflow.com/a/29092698
+  - When you done open [LoadingProcess.c](app/src/main/jni/LoadingProcess.c), and replace all `substratum_theme_template` with your own package name but replace the dots (.) with underscores (_).
+   For instance `com_yourname_themename`
+ 
+NOTE: If you change your project structure name, the AndroidManifest AND the build.gradle package names must match, or else encrypted assets will break.
 
 ## Step 2: Theme Properties
-You can control your theme properties such as whether yout theme supports OMS, RRO or both inside
+You can control your theme properties such as whether your theme supports OMS, RRO or both inside
 the theme configuration file: [theme_configurations.xml](app/src/main/res/values/theme_configurations.xml)
 
-Now configure it to your liking:
-```
-<!-- Theme name and author name -->
-<string name="ThemeName">Substratum Theme Template</string>
-<string name="ThemeAuthor">[projekt.] development team</string>
-<!-- Your email for bug reports -->
-<string name="ThemeAuthorEmail"></string>
-<!-- Do you support Stock and Theme Ready Gapps? -> all -->
-<!-- Do you support Theme Ready but not Stock Gapps? -> ready -->
-<!-- Do you support Stock but not Theme Ready Gapps? -> stock -->
-<string name="ThemeReadyRequirement">all</string>
-<!-- Theme wallpaper source (must be raw) -->
-<string name="ThemeWallpaperSource">http://pastebin.com/raw/TG4mFdXz</string>
-<!-- Do your theme support substratum legacy? -->
-<!-- If you choose not to support legacy, then change line 12 in AndroidManifest.xml -->
-<!-- from 'false' to 'true' to hide your theme on the Play Store from legacy ROM-->
-<bool name="ThemeSupportLegacy">true</bool>
-<!-- Do your theme support substratum samsung? -->
-<bool name="ThemeSupportSamsung">false</bool>
-```
 For wallpapers, make sure you use DIRECT LINKS for everything you see in the pastebin template. We recommend using pastebin, 
 but you could use Google Drive (for the XML file). Pictures must be located in a public area so that people can download them freely.
 
@@ -94,7 +77,16 @@ You are allowed to add multiple bootanimations and name them differently so they
 Example:
 ```
 assets/bootanimation/Sakura.zip
-assets/bootanimation/MarvelDC.zip
+```
+
+### Shutdown Animations
+To install shutdown animations, you will need to have a shutdownanimation folder, just like it's listed [here](app/src/main/assets/shutdownanimation).
+
+Just like bootanimations, but only enabled on Oreo based devices and above!
+
+Example:
+```
+assets/shutdownanimation/Sakura.zip
 ```
 
 ### Fonts
@@ -108,14 +100,13 @@ This also supports fonts.xml within the font's ZIP file, so if you have any know
 
 Example:
 ```
-assets/fonts/SegoeUIWP8.zip
-assets/fonts/ohds5.zip
+assets/fonts/Ubuntu.zip
 ```
 Font ZIP root structure:
 ```
-SegoeUIWP8.zip/font1.ttf
-SegoeUIWP8.zip/font2.ttf
-SegoeUIWP8.zip/font3.ttf
+Ubuntu.zip/font1.ttf
+Ubuntu.zip/font2.ttf
+Ubuntu.zip/font3.ttf
 ```
 
 ### Overlays
@@ -142,34 +133,45 @@ If you take a look at the aforementioned theme_configurations.xml, you will see 
 ## Step 6: Safeguard your theme! Don't let the pirates win!
 
 ### If you want to enable the Substratum theme for other Theme Managers (e.g. Slim)
-In app build.gradle, change the [SUPPORTS_THIRD_PARTY_SYSTEMS](app/build.gradle#L16) on line 16 of app build.gradle from false to true.
+In app build.gradle, change the [SUPPORTS_THIRD_PARTY_SYSTEMS](app/build.gradle#L19) on line 19 of your app's build.gradle from false to true.
 
 ### If you don't want to activate AntiPiracy
 Then you can stop reading and get your theme published! Good luck!
 
 ### Getting started with AntiPiracy
 
-If you are ready to get AntiPiracy set up, all you need to look at is [ThemersConstant.kt](app/src/main/java/substratum/theme/template/ThemerConstants.kt)
+If you are ready to get AntiPiracy set up, all you need to look at is [LoadingProcess.c](app/src/main/jni/LoadingProcess.c)!
 
-First change the [PIRACY_CHECK](app/src/main/java/substratum/theme/template/ThemerConstants.kt#L5) value on line 5 from false to true.
+First change the [ENABLE_ANTI_PIRACY](app/src/main/jni/LoadingProcess.c#L7) value on line 7 from `JNI_FALSE` to `JNI_TRUE`.
 
-And you need compile your theme as a SIGNED production APK from Android Studio (Build -> Compile Signed APK). Then launch the signed apk on your device and your log will spit out an error log under the name "SubstratumAntiPiracyLog", and you want to copy and paste that into [APK_SIGNATURE_PRODUCTION](app/src/main/java/substratum/theme/template/ThemerConstants.kt#L8) on line 8.
+Compile your theme as a SIGNED release APK from Android Studio (Build -> Generate Signed APK). Then launch the signed apk on your device and your log will spit out an error log under the name "SubstratumThemeReport", and you want to copy and paste that into [APK_SIGNATURE_PRODUCTION](app/src/main/jni/LoadingProcess.c#L10) on line 10.
 
-Then you would need to go to Play Developer Console. Then access to your app -> Services and APIs, generate a new API key for your app and then paste it into [BASE_64_LICENSE_KEY](app/src/main/java/substratum/theme/template/ThemerConstants.kt#L7) on line 7.
+Then you would need to go to Play Developer Console. Then access to your app -> Services and APIs, generate a new API key for your app and then paste it into [BASE_64_LICENSE_KEY](app/src/main/java/substratum/theme/template/Constants.kt#L11) on line 11.
 
-Third, if you would like to enable intensive mode antipiracy (App package blacklist), add as many package names as you want under [BLACKLISTED_APPLICATIONS](app/src/main/java/substratum/theme/template/ThemerConstants.kt#L27) on line 27. Then enable [ENABLE_BLACKLISTED_APPLICATIONS](app/src/main/java/substratum/theme/template/ThemerConstants.kt#L26) on line 26.
+Third, if  you would like to change where it checks for various things such as Amazon App Store Enforcement or Play Store Enforcement, you have options listed on line 14 and lines below it, simply change from `JNI_TRUE` to `JNI_FALSE` and vice versa to make your desired configuration.
 
-Finally, if you would like to change where it checks for piracy such as Amazon App Store Enforcement or Play Store Enforcement, you have options listed in [ThemerConstants.kt](app/src/main/java/substratum/theme/template/ThemerConstants.kt#L9) for you to simply change true and false!
+Finally, if you would like to enable intensive mode anti-piracy (App package blacklist), add as many package names as you want under [BLACKLISTED_APPLICATIONS](app/src/main/java/substratum/theme/template/Constants.kt#L31) on [Constants.kt](app/src/main/java/substratum/theme/template/Constants.kt) line 31. Then make sure to enable [ENABLE_APP_BLACKLIST_CHECK](app/src/main/jni/LoadingProcess.c#L14) on [LoadingProcess.c](app/src/main/jni/LoadingProcess.c) line 12.
 
-**DO NOT SHARE YOUR THEMERCONSTANTS.KT FILE IF YOU OPEN SOURCE YOUR THEME AND WANT TO KEEP ANTIPIRACY!**
+**Under no circumstances should you share your LoadingProcess.c file, unless specifically asked by an [official substratum developer!](https://github.com/substratum/documentation#team-info-and-responsibilities)**
 
 ### Encrypted Assets
-As of template version 10.0.0, the theme assets now can be encrypted! All you need to do is switch the [SHOULD_ENCRYPT_ASSETS](app/build.gradle#L13) in app build.gradle line 13.
+As of template version 11.0.0, all theme assets are duplicated are encrypted within the APK by default, not your original assets!
 
-But if you ever lost your source files for your theme, unfortunately, it is all gone. Thankfully, BitBucket and GitLab support private repos for free (GitHub is paid, or free with student discount)...so we recommend to keep all your files stored there!
+Always use a version control tool listed below to host your private themes!
 
-BitBucket: https://bitbucket.org/<br>
+BitBucket: https://bitbucket.org/
 GitLab: https://about.gitlab.com/
+
+If you want to keep your theme assets unencrypted, just change the value [here](app/build.gradle#L14) to false.
+
+### Enforcing security
+As of template version 11.0.0, themes have an additional check on the build of substratum your users should be running.
+
+What this means is that themes can ensure their themes ONLY function with our full release cycle with debug and Play Store releases.
+
+If you would like to enable this feature (only allow your theme to be used with official substratum builds), all you have to do is to flip `JNI_TRUE` to `JNI_FALSE` [here](app/src/main/jni/LoadingProcess.c#L18)!
 
 ### Now what?
 Nothing. Now you're set to publish your theme!
+
+## Written with ❤ from themers and developers alike!

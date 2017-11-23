@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="substratum.theme.template"
+          package="com.ohayoubaka.statusbarsamsung"
           android:installLocation="internalOnly">
 
     <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
     <uses-permission android:name="android.permission.INTERNET" />
 	
 	<uses-feature
-        android:name="projekt.substratum.theme"
+        android:name="projekt.com.ohayoubaka"
         android:required="false" /> <!-- Set to true for block to be enabled -->
 
     <application
@@ -18,9 +18,10 @@
         android:supportsRtl="true"
         android:theme="@style/DialogStyle"
         tools:node="replace"
-        tools:ignore="GoogleAppIndexingWarning">
+        tools:ignore="GoogleAppIndexingWarning"
+        android:extractNativeLibs="false">
 
-        <activity android:name="substratum.theme.template.SubstratumLauncher">
+        <activity android:name="com.ohayoubaka.statusbarsamsung.SubstratumLauncher">
             <intent-filter>
                 <action android:name="projekt.substratum.THEME"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -62,7 +63,7 @@
         <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
         <meta-data
             android:name="Substratum_Plugin"
-            android:value="10.0.4"/>
+            android:value="11.1.0"/>
         <meta-data
             android:name="Substratum_Encryption"
             android:value="@string/encryption_status"/>
