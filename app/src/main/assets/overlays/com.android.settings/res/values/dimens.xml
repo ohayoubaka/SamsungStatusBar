@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="actionbar_size">60.0dip</dimen>
+    <dimen name="actionbar_size">56.0dip</dimen>
+	<dimen name="list_divider_height">0.0dip</dimen>
 </resources>

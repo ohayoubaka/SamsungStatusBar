@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SMWinset.Font.Roboto" parent="@*com.android.settings:style/SMWinset">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="SMWinset.Font.Roboto.Condensed.Bold" parent="@*com.android.settings:style/SMWinset">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">roboto-bold</item>
+    </style>
+    <style name="SMWinset.Font.Roboto.Medium" parent="@*com.android.settings:style/SMWinset.Font.Roboto">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">roboto-medium</item>
+    </style>
+</resources>
