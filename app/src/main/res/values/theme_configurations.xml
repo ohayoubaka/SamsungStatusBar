@@ -28,5 +28,6 @@
     <string-array name="ThemeChangelog">
         <item>Status Bar Icons (+extras)</item>
         <item>For Samsung ROMs (7.0/7.1.1 Nougat + 8.0 Oreo)</item>
+		<item>UNINSTALL ALL OVERLAYS BEFORE TAKING A SYSTEM UPDATE!</item>
     </string-array>
 </resources>
