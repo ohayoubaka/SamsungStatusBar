@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="crash_detail_list_stop_respond_color_theme">#ff4285f4</color>
+    <color name="edge_fix_button_state_poor_color">#ff4285f4</color>
+    <color name="fix_now_bad_bg_color">#ff4285f4</color>
+    <color name="score_shortcut_state_bad_text_color_theme">#ff4285f4</color>
+    <color name="score_state_bad_color">#ff4285f4</color>
+    <color name="second_depth_status_bad_text_color_theme">#ff4285f4</color>
+    <color name="power_saving_mode_stroke_color">#ff4285f4</color>
+    <color name="power_saving_mode_off_button_background_pressed_color">#ff4285f4</color>
+    <color name="second_depth_sub_header_divider_bg_color_theme">#00ffffff</color>
+    <color name="sm_other_section_divider_expand_btn_tint_color_theme">#00ffffff</color>
+    <color name="sm_winset_2017a_listview_divider_color_theme">#00ffffff</color>
+    <color name="sub_app_bar_bottom_divider_theme">#00ffffff</color>
+    <color name="battery_fragment_charging_icon_color_in_circle">#ff4285f4</color>
+    <color name="check_box_checkon_color_theme">#ff4285f4</color>
+    <color name="edge_circle_score_bg_good_color">#334285f4</color>
+    <color name="edge_fix_button_state_good_color">#ff4285f4</color>
+    <color name="fix_now_good_bg_color">#ff4285f4</color>
+    <color name="power_saving_mode_button_background_pressed_color">#ff4285f4</color>
+    <color name="score_state_good_color">#ff4285f4</color>
+    <color name="scoreboard_detail_auto_item_check_color_theme">#ff4285f4</color>
+    <color name="second_depth_circle_check_done_color">#ff4285f4</color>
+    <color name="second_depth_circle_cleaning_big_text_color">#ff4285f4</color>
+    <color name="second_depth_status_good_text_color_theme">#ff4285f4</color>
+    <color name="select_all_check_box_checkon_color_theme">#ff4285f4</color>
+    <color name="accent_material_dark">#ff4285f4</color>
+    <color name="edge_circle_score_bg_moderate_color">#264285f4</color>
+    <color name="edge_fix_button_state_moderate_color">#ff4285f4</color>
+    <color name="edge_score_ring_state_moderate_color">#ff4285f4</color>
+    <color name="edge_score_state_warning_color">#ff4285f4</color>
+    <color name="fix_now_warning_bg_color">#ff4285f4</color>
+    <color name="score_state_warning_color">#ff4285f4</color>
+    <color name="second_depth_status_warning_text_color_theme">#ff4285f4</color>
+</resources>
