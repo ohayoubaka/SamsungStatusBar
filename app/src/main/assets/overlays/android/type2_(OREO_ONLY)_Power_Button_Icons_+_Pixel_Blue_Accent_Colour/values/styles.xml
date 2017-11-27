@@ -14,4 +14,60 @@
         <item name="android:textAllCaps">false</item>
         <item name="android:fontFamily">roboto-medium</item>
     </style>
+	<style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.Material.Settings" />
+	
+	
+	<style name="AlertDialog.DeviceDefault.Light" parent="@*android:style/Theme.DeviceDefault.Light.Dialog" />
+    <style name="AlertDialog.DeviceDefault" parent="@*android:style/Theme.DeviceDefault.Light.Dialog" />
+    <style name="DeviceDefault.Light.ButtonBar.AlertDialog" parent="@*android:style/Widget.Material.Light.ButtonBar.AlertDialog" />
+
+    <style name="Theme.DeviceDefault.Dialog.Alert" parent="@*android:style/Theme.Material.Light.Dialog.Alert" />
+    <style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Material.Light.Dialog" />
+    <style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@*android:style/Theme.Material.Light.Dialog.MinWidth" />
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@*android:style/Theme.Material.Light.Dialog.NoActionBar" />
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@*android:style/Theme.Material.Light.Dialog.NoActionBar.MinWidth" />
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@*android:style/Theme.Material.Light.DialogWhenLarge">
+        <item name="android:colorPrimary">@*android:color/primary_material_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_material_light</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+        <item name="android:windowBackground">@*android:color/background_light</item>
+    </style>
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@*android:style/Theme.Material.Light.DialogWhenLarge.NoActionBar" />
+
+    <style name="Theme.Material.Settings.BaseDialog" parent="@*android:style/Theme.Material.Light.BaseDialog">
+        <item name="android:colorPrimary">@*android:color/primary_material_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_light</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+    </style>
+    <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@*android:style/Theme.Material.Light.Dialog.BaseAlert">
+        <item name="android:colorPrimary">@*android:color/primary_material_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_light</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+    </style>
+    <style name="Theme.Material.Settings.DialogWhenLarge" parent="@*android:style/Theme.Material.Light.DialogWhenLarge">
+        <item name="android:colorPrimary">@*android:color/primary_material_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_light</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+    </style>
+    <style name="Theme.Material.Settings.DialogWhenLarge.NoActionBar" parent="@*android:style/Theme.Material.Light.DialogWhenLarge.NoActionBar">
+        <item name="android:colorPrimary">@*android:color/primary_material_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_light</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+    </style>
+    <style name="Theme.Material.Settings.Dialog.Presentation" parent="@*android:style/Theme.Material.Light.Dialog.Presentation">
+        <item name="android:colorPrimary">@*android:color/primary_material_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_light</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+    </style>
+    <style name="Theme.Material.Settings.CompactMenu" parent="@*android:style/Theme.Material.Light.CompactMenu">
+        <item name="android:colorPrimary">@*android:color/primary_material_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_light</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+    </style>
+
+    <style name="Theme.Leanback.Settings.Dialog.Alert" parent="@*android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:colorBackground">@*android:color/primary_material_light</item>
+        <item name="android:textColorPrimary">#ff000000</item>
+        <item name="android:textColorSecondary">#ff666666</item>
+    </style>
 </resources>
