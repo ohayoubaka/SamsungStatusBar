@@ -83,4 +83,23 @@
 	<color name="icon_accent">#ff737373</color>
 	<color name="sub_app_bar_text_color">#ff4285f4</color>
 	<color name="volume_icon_color">#ff737373</color>
+	<color name="status_bar_color">#17000000</color>
+	<color name="action_bar_color">#fff5f5f5</color>
+	<color name="edit_app_bar_bg_color">#fff5f5f5</color>
+	<color name="account_add_circle_bg_color">#fff5f5f5</color>
+	<color name="ic_list_item_account_delete_circle_bg_color">#fff5f5f5</color>
+	<color name="dashboard_tab_bg_color">#fff5f5f5</color>
+	<color name="dashboard_category_text_view_text_color">#ff4285f4</color>
+	<color name="ic_list_item_config_normal_color">#ff4285f4</color>
+	<color name="fingerprint_verfiedid">#ff4285f4</color>
+	<color name="bt_device_icon_tint_color">#ffeeeeee</color>
+    <color name="bt_device_config_icon_tint_color">#ff5c94f1</color>
+    <color name="bt_device_icon_background_tint_color">#ff4285f4</color>
+    <color name="bt_device_icon_circle_stroke_color">#00eeeeee</color>
+	<color name="bluetooth_progress_circle_color1">#ff4285f4</color>
+    <color name="bluetooth_progress_circle_color2">#ff4285f4</color>
+	<color name="wifi_hidden_ap_list_title_text">#ff4285f4</color>
+	<color name="battery_fine_color">#ff4285f4</color>
+	<color name="battery_big_text_color">#ff4285f4</color>
+	<color name="data_usage_used_text_color">#ff4285f4</color>
 </resources>

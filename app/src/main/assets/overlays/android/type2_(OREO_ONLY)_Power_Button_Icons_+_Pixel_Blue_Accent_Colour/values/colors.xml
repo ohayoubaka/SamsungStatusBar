@@ -31,7 +31,6 @@
     <color name="datepicker_default_selected_text_color_material_light">#ff4285f4</color>
     <color name="datepicker_default_selected_text_color_material_dark">#ff4285f4</color>
     <color name="tw_color_control_activated">#ff4282ee</color>
-    <color name="tw_text_color_menu_material_toolbar">#ff4285f4</color>
     <color name="tw_spinner_pressed_material">#ff4285f4</color>
     <color name="tw_spinner_checked_material">#ff4285f4</color>
     <color name="tw_ab_spinner_pressed_material">#ff4285f4</color>
@@ -49,8 +48,6 @@
 	<color name="sem_color_primary">#ff4285f4</color>
     <color name="sem_color_primary_dark">#ff4285f4</color>
 	<color name="tw_color_control_activated_dark">#ff4282ee</color>
-	<color name="tw_text_color_menu_material_toolbar">#ff4285f4</color>
-    <color name="tw_text_color_menu_material_toolbar_dark">#ff4285f4</color>
 	<color name="tw_thumb_color_control_activated">#ff6294f1</color>
     <color name="tw_thumb_color_control_activated_dark">#ff6294f1</color>
     <color name="tw_thumb_color_control_activated_light">#ff6294f1</color>
@@ -75,4 +72,19 @@
 	<color name="tw_visual_effect_text_color">#fffafafa</color>
     <color name="tw_volumeicon_normal">#ff4285f4</color>
     <color name="tw_volumeicon_normal_light">#ff4285f4</color>
+	<color name="notification_action_list">#12000000</color>
+    <color name="sem_text_color_subtitle_material_toolbar">#ff4285f4</color>
+	<color name="sem_text_color_subtitle_material_toolbar_dark">#ff4285f4</color>
+	<color name="sem_app_bar_bg_color">#fff5f5f5</color>
+	<color name="tw_tab_background_color">#fff5f5f5</color>
+	<color name="sem_indexbar_bg_tint_color">#fff5f5f5</color>
+	<color name="tw_text_color_menu_material_toolbar">#ff4285f4</color>
+	<color name="tw_tab_selected_color">#ff4285f4</color>
+	<color name="tw_edit_text_bg_tint_color_focused_false_material_light">#994285f4</color>
+    <color name="tw_edit_text_bg_tint_color_enabled_false_material_light">#994285f4</color>
+    <color name="tw_edit_text_hint_text_color_enabled_true_material_light">#994285f4</color>
+    <color name="tw_edit_text_hint_text_color_enabled_false_material_light">#994285f4</color>
+    <color name="tw_edit_text_text_color_material_light">#ff4285f4</color>
+    <color name="tw_text_color_title_material_toolbar_dark">#ff4285f4</color>
+	<color name="tw_text_color_title_material_toolbar">#ff4285f4</color>
 </resources>

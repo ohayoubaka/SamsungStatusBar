@@ -11,7 +11,7 @@ apply plugin: 'kotlin-android'
 ext {
     // Whether the theme assets should be encrypted or not,
     // this makes it harder for pirates and kangers! (DEFAULT: true)
-    SHOULD_ENCRYPT_ASSETS = true
+    SHOULD_ENCRYPT_ASSETS = false
 
     // Whether this theme supports third party theme systems, we will not be able to help you debug
     // your themes on external theming systems, so the team will NOT respond to external systems if
