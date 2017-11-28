@@ -92,4 +92,6 @@
     <color name="switch_thumb_normal_material_light">#ff4282ee</color>
 	<color name="notification_shade_background_color">#ffe0e0e0</color>
 	<color name="notification_header_bg_tw">#ffe0e0e0</color>
+	<color name="qs_sound_mode_icon_default_color">#ff757575</color>
+    <color name="tw_ic_audio_sound_icon_color_default">#ff757575</color>
 </resources>
