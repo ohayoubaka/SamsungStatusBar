@@ -34,4 +34,5 @@
     <dimen name="notification_top_pad_large_text">5.0dip</dimen>
     <dimen name="notification_top_pad_large_text_narrow">-4.0dip</dimen>
     <dimen name="notification_top_pad_narrow">4.0dip</dimen>
+	<dimen name="multiwindow_samsung_freeform_decor_caption_window_height">36.0dip</dimen>
 </resources>
