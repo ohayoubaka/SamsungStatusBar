@@ -10,7 +10,7 @@
     <item android:id="@*android:id/background">
         <shape android:shape="rectangle">
             <solid android:color="@*com.android.systemui:color/recents_close_all_button_bg" />
-            <stroke android:width="1.0dip" android:color="@*com.android.systemui:color/recents_close_all_button_bg_outline" />
+            <stroke android:width="0.0dip" android:color="@*com.android.systemui:color/recents_close_all_button_bg_outline" />
             <corners android:radius="100.0dip" />
         </shape>
     </item>
