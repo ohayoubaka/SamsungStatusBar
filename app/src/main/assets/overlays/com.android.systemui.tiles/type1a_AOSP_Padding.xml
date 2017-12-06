@@ -12,4 +12,5 @@
     <dimen name="recents_lock_to_app_size">56.0dip</dimen>
     <dimen name="recents_task_view_header_button_padding">10.0dip</dimen>
     <dimen name="recents_task_view_header_height">56.0dip</dimen>
+	<dimen name="brightness_bar_height">50.0dip</dimen>
 </resources>
