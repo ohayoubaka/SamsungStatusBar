@@ -96,4 +96,5 @@
 	<color name="notification_material_background_color">#ffffffff</color>
 	<color name="qs_sound_mode_icon_default_color">#ff757575</color>
     <color name="tw_ic_audio_sound_icon_color_default">#ff757575</color>
+	<color name="qs_detail_header_title">#ff4285f4</color>
 </resources>
