@@ -32,4 +32,14 @@
     <color name="fix_now_warning_bg_color">#ff4285f4</color>
     <color name="score_state_warning_color">#ff4285f4</color>
     <color name="second_depth_status_warning_text_color_theme">#ff4285f4</color>
+    <color name="storage_icon_color_app_theme">#ff737373</color>
+    <color name="storage_icon_color_audio_theme">#ff737373</color>
+    <color name="storage_icon_color_document_theme">#ff737373</color>
+    <color name="storage_icon_color_image_theme">#ff737373</color>
+    <color name="storage_icon_color_video_theme">#ff737373</color>
+    <color name="ascentColor">#ff4285f4</color>
+    <color name="edge_btn_text_color">#ff4285f4</color>
+    <color name="headup_stacked_button_text_color_theme">#ff4285f4</color>
+    <color name="highlight_text_color">#ff4285f4</color>
+    <color name="winset_subheader_terms_and_conditions_theme">#ff4285f4</color>
 </resources>
