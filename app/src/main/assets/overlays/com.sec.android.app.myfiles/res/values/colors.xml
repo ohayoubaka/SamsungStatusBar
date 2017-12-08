@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary_dark">#ff4285f4</color>
+    <color name="color_primary_app">#ff4285f4</color>
+    <color name="myfiles_progress_color1">#734285f4</color>
+    <color name="myfiles_progress_color2">#d94285f4</color>
+    <color name="optimize_storage_used">#664285f4</color>
+    <color name="optimize_storage_used_index">#664285f4</color>
+    <color name="optimize_storage_recommended_index">#ff4285f4</color>
+    <color name="myfiles_list_folder_icon_tint">#ff737373</color>
+    <color name="home_icon_google_drive_color">#ff737373</color>
+    <color name="color_primary">#ff6294f1</color>
+    <color name="home_icon_device_storage_color">#ff737373</color>
+    <color name="home_icon_document_color">#ff737373</color>
+    <color name="home_icon_download_history_color">#ff737373</color>
+    <color name="home_icon_image_color">#ff737373</color>
+    <color name="home_icon_music_color">#ff737373</color>
+    <color name="home_icon_samsung_drive_color">#ff737373</color>
+    <color name="home_icon_video_color">#ff737373</color>
+    <color name="home_icon_ssd_power_pack_color">#ff737373</color>
+    <color name="home_icon_usb_storage_color">#ff737373</color>
+    <color name="home_icon_apk_color">#ff737373</color>
+    <color name="home_icon_sd_card_color">#ff737373</color>
+    <color name="home_icon_music_bg_color">#00000000</color>
+    <color name="home_icon_image_bg_color">#00000000</color>
+    <color name="home_icon_download_history_bg_color">#00000000</color>
+    <color name="home_icon_document_bg_color">#00000000</color>
+    <color name="home_icon_apk_bg_color">#00000000</color>
+    <color name="home_icon_video_bg_color">#00000000</color>
+    <color name="optimize_storage_used_inner_stroke">#ff4285f4</color>
+    <color name="optimize_storage_potential_space">#8c4285f4</color>
+</resources>
