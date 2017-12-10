@@ -16,7 +16,7 @@
     <color name="switch_accent_color">#ff4285f4</color>
 	<color name="recents_button_ripple_color">#704285f4</color>
 	<color name="highlight_text_color">#ff000000</color>
-	<color name="wifi_connected_toast">#ff4285f4</color>
+	<color name="wifi_connected_toast">#ffffffff</color>
 	<color name="volume_icon_color">#ff000000</color>
     <color name="volume_settings_icon_color">#ff4285f4</color>
     <color name="volume_slider_inactive">#756294f1</color>
