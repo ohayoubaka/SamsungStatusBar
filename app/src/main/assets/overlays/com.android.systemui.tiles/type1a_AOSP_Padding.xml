@@ -13,4 +13,21 @@
     <dimen name="recents_task_view_header_button_padding">10.0dip</dimen>
     <dimen name="recents_task_view_header_height">56.0dip</dimen>
 	<dimen name="brightness_bar_height">50.0dip</dimen>
+	<dimen name="recents_layout_min_margin">0.0dip</dimen>
+    <dimen name="recents_layout_top_margin_phone">0.0dip</dimen>
+    <dimen name="recents_layout_top_margin_tablet">0.0dip</dimen>
+    <dimen name="recents_layout_top_margin_tablet_xlarge">0.0dip</dimen>
+	<dimen name="recents_layout_bottom_margin">0.0dip</dimen>
+    <dimen name="recents_layout_side_margin_phone">0.0dip</dimen>
+    <dimen name="recents_layout_side_margin_tablet">0.0dip</dimen>
+    <dimen name="recents_layout_side_margin_tablet_split">0.0dip</dimen>
+    <dimen name="recents_layout_side_margin_tablet_docked">0.0dip</dimen>
+    <dimen name="recents_layout_side_margin_tablet_xlarge">0.0dip</dimen>
+    <dimen name="recents_layout_side_margin_tablet_xlarge_docked">0.0dip</dimen>
+    <dimen name="recents_layout_initial_bottom_offset_phone_port">0.0dip</dimen>
+    <dimen name="recents_layout_initial_bottom_offset_phone_land">0.0dip</dimen>
+    <dimen name="recents_layout_initial_bottom_offset_tablet">0.0dip</dimen>
+    <dimen name="recents_layout_top_peek_size">0.0dip</dimen>
+    <dimen name="recents_layout_bottom_peek_size">0.0dip</dimen>
+    <dimen name="recents_layout_inset_for_behind_taskview">0.0dip</dimen>
 </resources>
