@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="md_light_dividers">#00000000</color>
+	<color name="fab_menu_divider">#00000000</color>
+	<color name="about_libraries_dividerDark_openSource">#00000000</color>
+    <color name="about_libraries_dividerLight_openSource">#00000000</color>
+	<color name="theme_information_card_divider">#00000000</color>
+	<color name="wel_divider_color_theme_light">#00000000</color>
+	<color name="colorAccent">#ff4285f4</color>
+</resources>
