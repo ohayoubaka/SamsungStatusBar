@@ -42,4 +42,9 @@
     <color name="headup_stacked_button_text_color_theme">#ff4285f4</color>
     <color name="highlight_text_color">#ff4285f4</color>
     <color name="winset_subheader_terms_and_conditions_theme">#ff4285f4</color>
+	<color name="button_material_dark">#ff4285f4</color>
+	<color name="power_saving_mode_button_text_color">#ff4285f4</color>
+	<color name="power_saving_mode_button_subtext_color">#ff4285f4</color>
+    <color name="quick_setting_radio_btn_checkon_color_theme">#ff4285f4</color>
+    <color name="sm_winset_2017a_description_primary_text_color_theme">#ff4285f4</color>
 </resources>
