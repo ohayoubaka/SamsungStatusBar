@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<color name="system_accent_color">#ff4285f4</color>
-	<color name="notification_ripple_untinted_color">#ff4285f4</color>
-	<color name="notification_ripple_color_low_priority">#ff4285f4</color>
-    <color name="notification_ripple_tinted_color">#ff4285f4</color>
 	<color name="material_grey_100">#ff4285f4</color>
     <color name="material_grey_50">#ff4285f4</color>
     <color name="material_deep_teal_200">#ff4285f4</color>
     <color name="material_deep_teal_500">#ff4285f4</color>
+    <color name="notification_ripple_color_low_priority">#30000000</color>
+    <color name="notification_ripple_tinted_color">#30ffffff</color>
+    <color name="notification_ripple_untinted_color">#28000000</color>
 	<color name="keyguard_overflow_content_color">#ff4285f4</color>
 	<color name="accent_material_light">#ff4285f4</color>
     <color name="accent_material_dark">#ff4285f4</color>
