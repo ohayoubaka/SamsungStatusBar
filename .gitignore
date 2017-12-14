@@ -62,7 +62,7 @@ proguard/
 *.log
 
 #ndkBuild Files
-ndkBuild/
+.externalNativeBuild/
 
 #############################################################################
 # Other Misc. files
