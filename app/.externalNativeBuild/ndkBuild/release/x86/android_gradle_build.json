@@ -1,28 +1,28 @@
 {
   "buildFiles": [
-    "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\SamsungStatusBar\\app\\src\\main\\jni\\Android.mk"
+    "/home/mihail/StudioProjects/SamsungStatusBar/app/src/main/jni/Android.mk"
   ],
   "cleanCommands": [
-    "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\SamsungStatusBar\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dD:/Users/ohayoubaka/Desktop/AndroidStudio/SamsungStatusBar/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\SamsungStatusBar\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+    "/home/mihail/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/mihail/StudioProjects/SamsungStatusBar/app/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/home/mihail/StudioProjects/SamsungStatusBar/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/mihail/StudioProjects/SamsungStatusBar/app/build/intermediates/ndkBuild/release/lib clean"
   ],
   "libraries": {
     "LoadingProcess-release-x86": {
-      "buildCommand": "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\SamsungStatusBar\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dD:/Users/ohayoubaka/Desktop/AndroidStudio/SamsungStatusBar/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\SamsungStatusBar\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/Users/ohayoubaka/Desktop/AndroidStudio/SamsungStatusBar/app/build/intermediates/ndkBuild/release/obj/local/x86/libLoadingProcess.so",
+      "buildCommand": "/home/mihail/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/mihail/StudioProjects/SamsungStatusBar/app/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/home/mihail/StudioProjects/SamsungStatusBar/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/mihail/StudioProjects/SamsungStatusBar/app/build/intermediates/ndkBuild/release/lib /home/mihail/StudioProjects/SamsungStatusBar/app/build/intermediates/ndkBuild/release/obj/local/x86/libLoadingProcess.so",
       "toolchain": "toolchain-x86",
       "abi": "x86",
       "artifactName": "LoadingProcess",
       "files": [
         {
-          "src": "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\SamsungStatusBar\\app\\src\\main\\jni\\LoadingProcess.c",
-          "flags": "\"-gcc-toolchain\" \"C:/Users/ohayoubaka/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Users/ohayoubaka/Desktop/AndroidStudio/SamsungStatusBar/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"--sysroot\" \"C:/Users/ohayoubaka/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Users/ohayoubaka/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/i686-linux-android\""
+          "src": "/home/mihail/StudioProjects/SamsungStatusBar/app/src/main/jni/LoadingProcess.c",
+          "flags": "\"-gcc-toolchain\" \"/home/mihail/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-I/home/mihail/StudioProjects/SamsungStatusBar/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"--sysroot\" \"/home/mihail/Android/Sdk/ndk-bundle/sysroot\" \"-isystem\" \"/home/mihail/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android\""
         }
       ],
-      "output": "D:\\Users\\ohayoubaka\\Desktop\\AndroidStudio\\SamsungStatusBar\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libLoadingProcess.so"
+      "output": "/home/mihail/StudioProjects/SamsungStatusBar/app/build/intermediates/ndkBuild/release/obj/local/x86/libLoadingProcess.so"
     }
   },
   "toolchains": {
     "toolchain-x86": {
-      "cCompilerExecutable": "C:\\Users\\ohayoubaka\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+      "cCompilerExecutable": "/home/mihail/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
     }
   },
   "cFileExtensions": [

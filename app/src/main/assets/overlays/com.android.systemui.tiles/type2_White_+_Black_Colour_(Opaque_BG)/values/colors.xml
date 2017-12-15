@@ -14,7 +14,7 @@
 	<color name="system_notification_accent_color">#ff4285f4</color>
 	<color name="summary_notification_icon_tint_color">#ff4285f4</color>
     <color name="switch_accent_color">#ff4285f4</color>
-	<color name="recents_button_ripple_color">#704285f4</color>
+	<color name="recents_button_ripple_color">#70000000</color>
 	<color name="highlight_text_color">#ff000000</color>
 	<color name="wifi_connected_toast">#ffffffff</color>
 	<color name="volume_icon_color">#ff757575</color>
@@ -25,7 +25,7 @@
     <color name="clear_cover_font_color">#ff4285f4</color>
     <color name="shortcut_affordance_bg">#ff4285f4</color>
 	<color name="tw_status_bar_recent_no_app_color">#ff4285f4</color>
-	<color name="notification_panel_theme_ripple_color">#ff4285f4</color>
+	<color name="notification_panel_theme_ripple_color">#28000000</color>
 	<color name="qs_tile_icon_on_tint_color">#ff111111</color>
 	<color name="qs_tile_icon_on_dim_tint_color">#ff111111</color>
     <color name="qs_tile_icon_off_tint_color">#4d111111</color>
