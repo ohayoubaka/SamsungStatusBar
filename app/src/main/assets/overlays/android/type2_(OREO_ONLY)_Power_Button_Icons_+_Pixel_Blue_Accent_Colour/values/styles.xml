@@ -70,4 +70,7 @@
         <item name="android:textColorPrimary">#ff000000</item>
         <item name="android:textColorSecondary">#ff666666</item>
     </style>
+	<style name="TextAppearance.Material.Notification.Time" parent="@style/TextAppearance.Material.Notification.Info">
+        <item name="fontFamily">sans-serif</item>
+    </style>
 </resources>
