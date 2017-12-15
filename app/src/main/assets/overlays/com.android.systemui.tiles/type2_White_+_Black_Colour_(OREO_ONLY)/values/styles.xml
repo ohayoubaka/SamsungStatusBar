@@ -53,4 +53,19 @@
         <item name="android:textAllCaps">true</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
+	<style name="TextAppearance.Volume" parent="@*com.android.systemui:style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Volume.Description" parent="@*com.android.systemui:style/TextAppearance.Volume">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_detail_secondary_text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Volume.Header" parent="@*com.android.systemui:style/TextAppearance.Volume">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@*com.android.systemui:color/tw_volume_title_color_light</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
 </resources>

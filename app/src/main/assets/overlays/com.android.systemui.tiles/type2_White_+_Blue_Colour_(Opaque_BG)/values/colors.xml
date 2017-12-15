@@ -95,4 +95,6 @@
 	<color name="notification_header_bg_tw">#ffeeeeee</color>
 	<color name="qs_sound_mode_icon_default_color">#ff757575</color>
     <color name="tw_ic_audio_sound_icon_color_default">#ff757575</color>
+	<color name="list_divider_color">#00000000</color>
+	<color name="theme_divider_color">#00000000</color>
 </resources>
