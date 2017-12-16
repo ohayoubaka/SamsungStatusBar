@@ -47,8 +47,6 @@
     <color name="media_history_list_divider">#00000000</color>
     <color name="history_list_text_title_color">#ff000000</color>
     <color name="bookmark_folder_title_color">#ff000000</color>
-    <color name="show_bookmark_item_title_text_color">#ffffffff</color>
-    <color name="sites_color">#ffffffff</color>
     <color name="quickaccess_option_bar_background">#fffafafa</color>
     <color name="quickaccess_icon_view_item_container_background_solid_color">#fffafafa</color>
     <color name="color_white">#fffafafa</color>
