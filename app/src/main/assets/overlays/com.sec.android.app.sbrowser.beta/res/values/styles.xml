@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppBaseTheme.Light" parent="@*android:style/Theme.Material.Light" />
+	<style name="SBrowserTitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#ff4285f4</item>
+    </style>
+</resources>
