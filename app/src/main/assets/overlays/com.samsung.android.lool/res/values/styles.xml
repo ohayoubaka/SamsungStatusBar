@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppTheme" parent="@*android:style/Theme.Material.Light">
+        <item name="android:actionBarStyle">@*com.samsung.android.lool:style/AppActionBar</item>
+        <item name="android:actionModeStyle">@*com.samsung.android.lool:style/AppActionBar</item>
+        <item name="android:statusBarColor">#17000000</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
