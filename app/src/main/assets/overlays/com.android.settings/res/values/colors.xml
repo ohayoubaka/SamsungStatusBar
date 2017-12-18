@@ -104,7 +104,7 @@
 	<color name="battery_fine_color">#ff4285f4</color>
 	<color name="battery_big_text_color">#ff4285f4</color>
 	<color name="data_usage_used_text_color">#ff4285f4</color>
-	<color name="list_icon_color">#ff4285f4</color>
+	<color name="list_icon_color">#ff737373</color>
 	<color name="memory_max_use">#ff4285f4</color>
 	<color name="normal_to_bixby_text_color">#ff4285f4</color>
 	<color name="round_button_bg_color">#ff4285f4</color>
