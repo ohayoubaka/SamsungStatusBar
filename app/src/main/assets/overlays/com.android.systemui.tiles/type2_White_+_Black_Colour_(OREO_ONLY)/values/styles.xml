@@ -11,8 +11,8 @@
         <item name="android:layout_marginBottom">6.0dip</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:fontFamily">sec-roboto-medium</item>
-        <item name="android:paddingStart">12.0dip</item>
-        <item name="android:paddingEnd">12.0dip</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
     </style>
     <style name="TextAppearance.NotificationInfo.Header" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo">
         <item name="android:textSize">12.0sp</item>
