@@ -98,4 +98,5 @@
     <color name="tw_ic_audio_sound_icon_color_default">#ff757575</color>
 	<color name="list_divider_color">#00000000</color>
 	<color name="theme_divider_color">#00000000</color>
+	<color name="qs_grid_selected_tint">#ff4285f4</color>
 </resources>
