@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppBaseTheme" parent="@*android:style/Theme.Material.Light" />
+	<style name="SettingsTheme" parent="@*android:style/Theme.Material.Light">
+        <item name="*com.android.settings:list_item_check_box_margin_left">@*com.android.settings:dimen/list_item_checkbox_margin_left</item>
+        <item name="*com.android.settings:list_item_check_box_margin_right">@*com.android.settings:dimen/list_item_checkbox_margin_right</item>
+        <item name="*com.android.settings:list_item_check_box_width_for_delete_mode_animation">38.0dip</item>
+    </style>
+    <style name="SettingsTheme.DialogWhenLarge" parent="@*android:style/Theme.Material.Light">
+        <item name="android:actionModeCloseButtonStyle">@*com.android.settings:style/NoCloseButton</item>
+    </style>
+	<style name="BluetoothSettings.Picker" parent="@*android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+	<style name="Theme.AlertDialog" parent="@*android:style/Theme.Material.Light.Dialog.Alert" />
+    <style name="Theme.DialogWhenLarge" parent="@*android:style/Theme.Material.Light.DialogWhenLarge">
+        <item name="android:colorForeground">#fffafafa</item>
+    </style>
+    <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.Material.Light.Dialog.Alert" />
+	<style name="TextAppearance.Switch" parent="@*com.android.settings:style/TextAppearance">
+        <item name="android:textSize">@*com.android.settings:dimen/sub_app_bar_text_size</item>
+        <item name="android:textColor">@*com.android.settings:color/sub_app_bar_text_color</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>
