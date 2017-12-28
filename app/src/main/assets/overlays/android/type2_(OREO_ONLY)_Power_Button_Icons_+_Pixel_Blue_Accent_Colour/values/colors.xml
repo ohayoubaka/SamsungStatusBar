@@ -89,4 +89,10 @@
     <color name="tw_edit_text_text_color_material_light">#ff4285f4</color>
     <color name="tw_text_color_title_material_toolbar_dark">#ff4285f4</color>
 	<color name="tw_text_color_title_material_toolbar">#ff4285f4</color>
+	<color name="tw_switch_dim_mtrl_dark">@*android:color/tw_switch_off_mtrl</color>
+	<color name="tw_switch_on_mtrl_dark">#ff4285f4</color>
+	<color name="tw_searchview_clear_icon_color_material">#ff4285f4</color>
+	<color name="tw_searchview_search_icon_color_material">#ff4285f4</color>
+    <color name="tw_searchview_search_icon_color_material_dark">#ff4285f4</color>
+	<color name="tw_searchview_voice_icon_color_material">#ff4285f4</color>
 </resources>
