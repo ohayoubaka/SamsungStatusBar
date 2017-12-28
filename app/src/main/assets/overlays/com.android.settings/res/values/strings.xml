@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="abc_searchview_description_search">Search settings</string>
+    <string name="print_menu_item_search">Search settings</string>
+    <string name="search_menu_title">Search settings</string>
+    <string name="search_settings">Search settings</string>
+</resources>
