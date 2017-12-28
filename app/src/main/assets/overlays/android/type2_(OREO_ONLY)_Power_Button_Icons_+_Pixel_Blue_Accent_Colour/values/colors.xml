@@ -94,5 +94,7 @@
 	<color name="tw_searchview_clear_icon_color_material">#ff4285f4</color>
 	<color name="tw_searchview_search_icon_color_material">#ff4285f4</color>
     <color name="tw_searchview_search_icon_color_material_dark">#ff4285f4</color>
-	<color name="tw_searchview_voice_icon_color_material">#ff4285f4</color>
+	<color name="tw_searchview_voice_icon_color_material">#004285f4</color>
+	<color name="tw_searchview_textfiled_normal_material">#fffafafa</color>
+	<color name="tw_searchview_hint_text_material">#ff737373</color>
 </resources>

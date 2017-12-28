@@ -40,6 +40,6 @@
 	<dimen name="sem_action_bar_default_height_material">56.0dip</dimen>
 	<dimen name="tw_searchview_background_stroke_size">0.0dip</dimen>
 	<dimen name="sem_text_size_title_material_toolbar">18.5dip</dimen>
-	<dimen name="tw_searchview_background_radius_size">1.0dip</dimen>
+	<dimen name="tw_searchview_background_radius_size">3.0dip</dimen>
 	<dimen name="dialog_title_divider_material">0.0dip</dimen>
 </resources>
