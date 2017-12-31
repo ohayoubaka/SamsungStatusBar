@@ -28,7 +28,7 @@
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="Wssyncmldm_Theme.InformationBox.TitleText" parent="@*android:style/Widget.TextView">
-        <item name="android:textSize">@*com.wssyncmldm:dimen/information_box_title_textsize</item>
+        <item name="android:textSize">15.0sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@*android:color/material_deep_teal_500</item>
         <item name="android:fontFamily">sans-serif-medium</item>
