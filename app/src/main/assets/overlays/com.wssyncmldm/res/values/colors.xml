@@ -4,4 +4,5 @@
 	<color name="fa_desclaimer_hyperlink_color">#ff4285f4</color>
 	<color name="software_update_hyperlink_color">#ff4285f4</color>
     <color name="button_material_light">#fff5f5f5</color>
+	<color name="downloading_info_text_color">#ff252525</color>
 </resources>
