@@ -29,4 +29,16 @@
         <item name="android:textColor">?android:textColorPrimary</item>
 		<item name="android:textSize">15.0sp</item>
     </style>
+    <style name="relative_link_link">
+        <item name="android:textSize">@*com.android.settings:dimen/relative_link_text_size</item>
+        <item name="android:textColor">#ff4285f4</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+	<style name="relative_link_title">
+        <item name="android:textSize">@*com.android.settings:dimen/relative_title_text_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
 </resources>
