@@ -22,7 +22,7 @@
         <item name="android:fontFamily">sans-serif</item>
     </style>
 	 <style name="Wssyncmldm_Theme.InformationBox.BodyText" parent="@*com.wssyncmldm:style/Wssyncmldm_Theme.Description">
-        <item name="android:textSize">@*com.wssyncmldm:dimen/information_box_body_textsize</item>
+        <item name="android:textSize">15.0sp</item>
         <item name="android:textColor">#ff252525</item>
         <item name="android:textColorLink">@*com.wssyncmldm:color/software_update_hyperlink_color</item>
         <item name="android:fontFamily">sans-serif</item>
