@@ -77,7 +77,7 @@
 	<color name="recent_help_body_split_icon_color">#ff4285f4</color>
 	<color name="qs_page_indicator_tint_color">#ff111111</color>
 	<color name="bottom_bar_button_text_color">#ff111111</color>
-	<color name="normal_mode_bottom_bar_bg">#ffeeeeee</color>
+	<color name="normal_mode_bottom_bar_bg">#fff5f5f5</color>
 	<color name="tw_ic_audio_sound_icon_muted_color">#ff757575</color>
     <color name="tw_ic_audio_sound_icon_earshock_color">#ff757575</color>
 	<color name="qs_detail_description_text_color">#ff111111</color>
@@ -91,12 +91,11 @@
 	<color name="qs_grid_text">#ff111111</color>
 	<color name="switch_thumb_normal_material_dark">#ff4282ee</color>
     <color name="switch_thumb_normal_material_light">#ff4282ee</color>
-	<color name="notification_shade_background_color">#ffeeeeee</color>
-	<color name="notification_header_bg_tw">#e6f5f5f5</color>
+	<color name="notification_shade_background_color">#fff5f5f5</color>
+	<color name="notification_header_bg_tw">#fff5f5f5</color>
 	<color name="notification_material_background_color">#ffffffff</color>
 	<color name="qs_sound_mode_icon_default_color">#ff757575</color>
     <color name="tw_ic_audio_sound_icon_color_default">#ff757575</color>
-	<color name="qs_detail_header_title">#ff4285f4</color>
 	<color name="list_divider_color">#00000000</color>
 	<color name="theme_divider_color">#00000000</color>
 	<color name="qs_grid_selected_tint">#ff4285f4</color>
