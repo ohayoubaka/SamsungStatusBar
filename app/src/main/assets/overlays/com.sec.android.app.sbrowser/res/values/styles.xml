@@ -2,7 +2,11 @@
 <resources>
 	<style name="AppBaseTheme.Light" parent="@*android:style/Theme.Material.Light" />
 	<style name="SBrowserTitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
-        <item name="android:textSize">17.0sp</item>
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:textColor">#ff4285f4</item>
+    </style>
+	<style name="SettingsTitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">18.5dip</item>
         <item name="android:textColor">#ff4285f4</item>
     </style>
 </resources>
