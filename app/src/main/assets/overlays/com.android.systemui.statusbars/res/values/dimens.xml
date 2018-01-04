@@ -13,4 +13,6 @@
 	<dimen name="carrier_label_height">0.0dip</dimen>
 	<dimen name="status_bar_battery_icon_height">15.0dip</dimen>
     <dimen name="status_bar_battery_icon_width">7.5dip</dimen>
+    <dimen name="notification_panel_carrier_label_height_zvv">0.0dip</dimen>
+    <dimen name="notification_panel_carrier_label_text_size_zvv">0.0dip</dimen>
 </resources>
