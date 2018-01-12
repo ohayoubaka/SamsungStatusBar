@@ -58,4 +58,5 @@
     <dimen name="tw_edit_text_size">15.0sp</dimen>
     <dimen name="tw_menu_popup_text_size">15.0sp</dimen>
     <dimen name="tw_select_dialog_list_item_text_size">15.0sp</dimen>
+	<dimen name="tw_searchview_search_plate_height">48.0dip</dimen>
 </resources>
