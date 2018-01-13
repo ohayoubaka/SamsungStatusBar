@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="SBrowserActionBarStyle" parent="@*android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@*com.sec.android.app.sbrowser:color/toolbar_bg_color</item>
+        <item name="android:height">56.0dp</item>
+        <item name="android:titleTextStyle">@*com.sec.android.app.sbrowser:style/SBrowserTitleTextStyle</item>
+    </style>
+</resources>
