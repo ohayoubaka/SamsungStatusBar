@@ -96,7 +96,9 @@
 	<color name="tw_searchview_voice_icon_color_material">#004285f4</color>
 	<color name="tw_searchview_textfiled_normal_material">#fffafafa</color>
 	<color name="tw_searchview_hint_text_material">#ff737373</color>
-	<color name="tw_tab_selected_color_dark">@*android:color/material_deep_teal_500</color>
-    <color name="tw_tab_selected_text_color_dark">@*android:color/material_deep_teal_500</color>
-	<color name="sem_color_primary_light">@*android:color/material_deep_teal_500</color>
+	<color name="tw_tab_selected_color_dark">#ff4285f4</color>
+    <color name="tw_tab_selected_text_color_dark">#ff4285f4</color>
+	<color name="sem_color_primary_light">#ff4285f4</color>
+	<color name="sem_resolver_title_text_color">#ff4285f4</color>
+    <color name="sem_resolver_title_text_color_dark">#ff4285f4</color>
 </resources>
