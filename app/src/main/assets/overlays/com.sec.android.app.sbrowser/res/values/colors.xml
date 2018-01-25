@@ -183,4 +183,8 @@
 	<color name="toolbar_pwa_on_color">#ff4285f4</color>
 	<color name="zzzz_webselect_color_primary_dark">#ff4285f4</color>
     <color name="zzzz_webselect_color_primary_dark_disabled">#664285f4</color>
+	<color name="quick_ic_internet_bg">#ff4285f4</color>
+	<color name="task_edge_small_icon_background_color">#ff4285f4</color>
+	<color name="open_source_license_color">#ff4285f4</color>
+	<color name="preference_switch_title_text_color">#ff4285f4</color>
 </resources>
