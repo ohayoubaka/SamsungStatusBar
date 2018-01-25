@@ -104,6 +104,7 @@
 	<color name="bottombar_text_high_contrast_night_color">#aa4285f4</color>
     <color name="bottombar_text_night_color">#aa4285f4</color>
 	<color name="toolbar_url_hint_text_color_night">#ff4285f4</color>
+	<color name="toolbar_url_hint_text_color_high_contrast">#ff4285f4</color>
     <color name="toolbar_url_hint_text_color_secret">#ff4285f4</color>
 	<color name="toolbar_url_text_color_high_contrast">#ff4285f4</color>
     <color name="toolbar_url_text_color_night">#ff4285f4</color>
