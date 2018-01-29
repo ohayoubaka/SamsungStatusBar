@@ -107,4 +107,5 @@
 	<color name="tw_dialog_title_text_color_material_dark">#ff4285f4</color>
 	<color name="tw_dialog_title_text_color_material_light">#ff4285f4</color>
 	<color name="tw_searchview_result_title_text_color_material">#ff4285f4</color>
+	<color name="notification_material_background_color">#fffafafa</color>
 </resources>
