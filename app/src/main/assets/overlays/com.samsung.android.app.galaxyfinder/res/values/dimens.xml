@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="search_view_height">0.0dip</dimen>
+	<dimen name="custom_search_bar_margin_top">0.0dip</dimen>
+    <dimen name="custom_search_edittext_tag_padding">0.0dip</dimen>
+    <dimen name="custom_search_edittext_tag_textsize">0.0dip</dimen>
+    <dimen name="custom_search_margin_end">0.0dip</dimen>
+    <dimen name="custom_search_margin_start">0.0dip</dimen>
+    <dimen name="custom_search_view_back_margin">0.0dip</dimen>
+    <dimen name="custom_search_view_divider_icon_height">0.0dip</dimen>
+    <dimen name="custom_search_view_divider_icon_width">0.0px</dimen>
+    <dimen name="custom_search_view_height">0.0dip</dimen>
+    <dimen name="custom_search_view_margin">0.0dip</dimen>
+    <dimen name="custom_search_view_menu_height">0.0dip</dimen>
+    <dimen name="custom_search_view_menu_width">0.0dip</dimen>
+    <dimen name="custom_search_view_radius">0.0dip</dimen>
+    <dimen name="custom_search_view_stroke">0.0px</dimen>
+    <dimen name="custom_search_view_width_with_padding">0.0dip</dimen>
+</resources>
