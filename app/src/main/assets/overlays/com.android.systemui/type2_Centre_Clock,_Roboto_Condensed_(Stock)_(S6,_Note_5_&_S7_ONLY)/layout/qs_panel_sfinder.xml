@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@*com.android.systemui:id/qs_panel_sfinder_view" android:background="@*com.android.systemui:drawable/qs_background_primary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@*com.android.systemui:dimen/qs_panel_sfinder_height" android:layout_marginTop="0.0dip" android:layout_alignParentBottom="true" android:layout_alignParentStart="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@*com.android.systemui:id/qs_sfinder_bar_bg" android:background="@*com.android.systemui:drawable/qs_panel_sfinder_area_bg_drawable" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentStart="true">
+            <TextView android:textSize="0.0dip" android:textColor="#00252525" android:ellipsize="end" android:id="@*com.android.systemui:id/qs_sfiinder_search_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@*com.android.systemui:string/qs_sfinder_search_phone" android:singleLine="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+            <ImageView android:gravity="center_vertical" android:id="@*com.android.systemui:id/qs_sfiinder_search_voice" android:background="@*com.android.systemui:drawable/ripple_drawable" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.android.systemui:drawable/tw_ic_voice_search_api_mtrl_alpha" android:scaleType="fitCenter" android:tint="#00252525" android:contentDescription="@*com.android.systemui:string/accessibility_quick_settings_voice_search" android:layout_marginEnd="0.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
