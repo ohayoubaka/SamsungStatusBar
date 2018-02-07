@@ -73,7 +73,7 @@
 	<color name="tw_visual_effect_text_color">#fffafafa</color>
     <color name="tw_volumeicon_normal">#ff4285f4</color>
     <color name="tw_volumeicon_normal_light">#ff4285f4</color>
-	<color name="notification_action_list">#12000000</color>
+	<color name="notification_action_list">#ffeeeeee</color>
     <color name="sem_text_color_subtitle_material_toolbar">#ff4285f4</color>
 	<color name="sem_text_color_subtitle_material_toolbar_dark">#ff4285f4</color>
 	<color name="sem_app_bar_bg_color">#fff5f5f5</color>
@@ -96,7 +96,16 @@
 	<color name="tw_searchview_voice_icon_color_material">#004285f4</color>
 	<color name="tw_searchview_textfiled_normal_material">#fffafafa</color>
 	<color name="tw_searchview_hint_text_material">#ff737373</color>
-	<color name="tw_tab_selected_color_dark">@*android:color/material_deep_teal_500</color>
-    <color name="tw_tab_selected_text_color_dark">@*android:color/material_deep_teal_500</color>
-	<color name="sem_color_primary_light">@*android:color/material_deep_teal_500</color>
+	<color name="tw_tab_selected_color_dark">#ff4285f4</color>
+    <color name="tw_tab_selected_text_color_dark">#ff4285f4</color>
+	<color name="sem_color_primary_light">#ff4285f4</color>
+	<color name="sem_resolver_title_text_color">#ff4285f4</color>
+    <color name="sem_resolver_title_text_color_dark">#ff4285f4</color>
+	<color name="holo_blue_dark">#ff4285f4</color>
+    <color name="datepicker_default_pressed_text_color_material_dark">#ff4285f4</color>
+    <color name="datepicker_default_pressed_text_color_material_light">#ff4285f4</color>
+	<color name="tw_dialog_title_text_color_material_dark">#ff4285f4</color>
+	<color name="tw_dialog_title_text_color_material_light">#ff4285f4</color>
+	<color name="tw_searchview_result_title_text_color_material">#ff4285f4</color>
+	<color name="notification_material_background_color">#fffafafa</color>
 </resources>

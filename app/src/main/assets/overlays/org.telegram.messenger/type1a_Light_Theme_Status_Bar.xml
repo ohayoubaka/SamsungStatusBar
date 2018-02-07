@@ -15,7 +15,7 @@
         <item name="android:calendarViewStyle">@*org.telegram.messenger:style/Theme.TMessages.CalendarView</item>
         <item name="android:actionBarItemBackground">@*org.telegram.messenger:drawable/bar_selector_style</item>
         <item name="android:colorControlActivated">#ff4991cc</item>
-        <item name="android:colorPrimary">#ff527da3</item>
+        <item name="android:colorPrimary">#fffafafa</item>
         <item name="android:colorPrimaryDark">#17000000</item>
         <item name="android:navigationBarColor">#ff000000</item>
         <item name="android:timePickerStyle">@*org.telegram.messenger:style/Theme.TMessages.TimePicker</item>

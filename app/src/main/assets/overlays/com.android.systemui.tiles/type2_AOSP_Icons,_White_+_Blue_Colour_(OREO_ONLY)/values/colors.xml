@@ -98,4 +98,7 @@
 	<color name="list_divider_color">#00000000</color>
 	<color name="theme_divider_color">#00000000</color>
 	<color name="qs_grid_selected_tint">#ff4285f4</color>
+	<color name="description_link_text_color">#ff4285f4</color>
+	<color name="system_primary_color">#e6f5f5f5</color>
+	<color name="qs_multisim_preffered_slot_background">#fff5f5f5</color>
 </resources>

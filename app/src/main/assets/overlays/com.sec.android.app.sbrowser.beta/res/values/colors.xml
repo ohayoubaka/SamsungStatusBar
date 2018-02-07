@@ -104,6 +104,7 @@
 	<color name="bottombar_text_high_contrast_night_color">#aa4285f4</color>
     <color name="bottombar_text_night_color">#aa4285f4</color>
 	<color name="toolbar_url_hint_text_color_night">#ff4285f4</color>
+	<color name="toolbar_url_hint_text_color_high_contrast">#ff4285f4</color>
     <color name="toolbar_url_hint_text_color_secret">#ff4285f4</color>
 	<color name="toolbar_url_text_color_high_contrast">#ff4285f4</color>
     <color name="toolbar_url_text_color_night">#ff4285f4</color>
@@ -168,4 +169,27 @@
 	<color name="checkbox_tint_color">#ff4285f4</color>
 	<color name="quickaccess_all_checkbox_high_contrast_mode_on_tint_color">#ff4285f4</color>
     <color name="quickaccess_all_checkbox_night_mode_on_tint_color">#ff4285f4</color>
+	<color name="bookmark_color_primary">#ff4285f4</color>
+    <color name="bookmark_color_primary_dark">#ff4285f4</color>
+	<color name="data_saver_data_display_text_color">#ff4285f4</color>
+	<color name="payment_autofill_suggestion_color">#ff4285f4</color>
+    <color name="payments_completed_color">#ff4285f4</color>
+	<color name="media_notification_app_name_color">#ff4285f4</color>
+	<color name="actionbar_cancel_done_text_color">#ff4285f4</color>
+	<color name="bookmark_theme_color">#ff4285f4</color>
+	<color name="custom_tab_button_color">#ff4285f4</color>
+	<color name="find_icon_color">#ff4285f4</color>
+	<color name="media_history_title_focused">#ff4285f4</color>
+	<color name="toolbar_pwa_on_color">#ff4285f4</color>
+	<color name="zzzz_webselect_color_primary_dark">#ff4285f4</color>
+    <color name="zzzz_webselect_color_primary_dark_disabled">#664285f4</color>
+	<color name="quick_ic_internet_bg">#ff4285f4</color>
+	<color name="task_edge_small_icon_background_color">#ff4285f4</color>
+	<color name="open_source_license_color">#ff4285f4</color>
+	<color name="preference_switch_title_text_color">#ff4285f4</color>
+	<color name="sbrowser_bookmarks_select_all_bg_color">#404285f4</color>
+    <color name="sbrowser_bookmarks_select_all_text_color">#ff4285f4</color>
+	<color name="download_item_date_view_text_color">#ff4285f4</color>
+	<color name="download_item_progress_tint">#ff4285f4</color>
+	<color name="swipe_refresh_progress_view_color">#ff4285f4</color>
 </resources>

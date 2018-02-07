@@ -9,9 +9,6 @@
     <style name="SettingsTheme.DialogWhenLarge" parent="@*android:style/Theme.Material.Light">
         <item name="android:actionModeCloseButtonStyle">@*com.android.settings:style/NoCloseButton</item>
     </style>
-	<style name="BluetoothSettings.Picker" parent="@*android:style/Theme.Material.Light.Dialog.Alert">
-        <item name="android:windowNoTitle">true</item>
-    </style>
 	<style name="Theme.AlertDialog" parent="@*android:style/Theme.Material.Light.Dialog.Alert" />
     <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.Material.Light.Dialog.Alert" />
 	<style name="TextAppearance.Switch" parent="@*com.android.settings:style/TextAppearance">

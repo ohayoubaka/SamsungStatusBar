@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="SBrowserTitleTextStyle" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff4285f4</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<style name="HelpIntroTheme" parent="@*android:style/Theme.Material.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorControlActivated">@*com.sec.android.app.sbrowser:color/color_control_activated</item>
+        <item name="android:colorPrimary">@*com.sec.android.app.sbrowser:color/color_primary</item>
+        <item name="android:colorPrimaryDark">@*com.sec.android.app.sbrowser:color/color_primary_dark</item>
+        <item name="android:statusBarColor">@*com.sec.android.app.sbrowser:color/help_intro_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
