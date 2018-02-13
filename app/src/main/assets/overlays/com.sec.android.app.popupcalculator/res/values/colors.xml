@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="keypad_divider">#00fafafa</color>
+    <color name="converter_edit_divider">#00fafafa</color>
+    <color name="history_btn_clear_divider">#00fafafa</color>
+    <color name="history_list_divider">#00fafafa</color>
+    <color name="history_top_divider">#00fafafa</color>
+    <color name="mtg_divider_below_tabs">#00fafafa</color>
+	<color name="button_material_dark">#ff4285f4</color>
+    <color name="colorPrimary">#ff4285f4</color>
+    <color name="keypad_equal_bg">#ff4285f4</color>
+    <color name="result">#ff4285f4</color>
+	<color name="back_key">#ff4285f4</color>
+    <color name="converter_btn_select">#ff4285f4</color>
+    <color name="converter_menu_selected">#ff4285f4</color>
+    <color name="converter_spinner_select">#ff4285f4</color>
+    <color name="history_btn_clear">#ff4285f4</color>
+    <color name="history_result">#ff4285f4</color>
+    <color name="keypad_symbol">#ff4285f4</color>
+    <color name="mtg_number_picker_select">#ff4285f4</color>
+    <color name="symbols">#ff4285f4</color>
+	<color name="keypad_clear">#ff4285f4</color>
+</resources>

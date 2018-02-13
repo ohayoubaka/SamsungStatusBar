@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="ConvertorTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarStyle">@*com.sec.android.app.popupcalculator:style/ConvertorActionBarStyle</item>
+        <item name="android:statusBarColor">#17000000</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
