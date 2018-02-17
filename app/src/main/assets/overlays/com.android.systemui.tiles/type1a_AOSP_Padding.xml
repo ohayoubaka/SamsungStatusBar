@@ -30,4 +30,5 @@
     <dimen name="recents_layout_top_peek_size">0.0dip</dimen>
     <dimen name="recents_layout_bottom_peek_size">0.0dip</dimen>
     <dimen name="recents_layout_inset_for_behind_taskview">0.0dip</dimen>
+	<dimen name="recents_empty_text_size">16.0sp</dimen>
 </resources>
