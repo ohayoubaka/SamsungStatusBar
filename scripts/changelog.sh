@@ -8,7 +8,7 @@ fi
 
 GIT_COMMIT_LOG="$(git log --format='%s (by %cn)' $TRAVIS_COMMIT_RANGE)"
 
-echo " <b>TelegramXMods-${TRAVIS_BUILD_NUMBER}</b>${NEWLINE}"
+echo " <b>SamsungStatusBar-${TRAVIS_BUILD_NUMBER}</b>${NEWLINE}"
 
 printf '%s\n' "$GIT_COMMIT_LOG" | while IFS= read -r line
 do
