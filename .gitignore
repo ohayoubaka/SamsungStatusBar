@@ -86,3 +86,20 @@ app/src/main/assets-temp
 
 app/release/output\.json
 app/release/output.json
+*.json
+app/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_output.txt
+app/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_command.txt
+app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_output.txt
+app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt
+app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_output.txt
+app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_command.txt
+app/.externalNativeBuild/ndkBuild/debug/x86_64/ndkBuild_build_command.txt
+app/.externalNativeBuild/ndkBuild/debug/x86_64/ndkBuild_build_output.txt
+app/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_command.txt
+app/.externalNativeBuild/ndkBuild/debug/x86_64/ndkBuild_build_output.txt
+app/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_output.txt
+app/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_command.txt
+app/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_command.txt
+app/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_output.txt
+app/.externalNativeBuild/ndkBuild/release/x86_64/ndkBuild_build_command.txt
+app/.externalNativeBuild/ndkBuild/release/x86_64/ndkBuild_build_output.txt
