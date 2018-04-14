@@ -28,7 +28,7 @@
     </style>
     <style name="relative_link_link">
         <item name="android:textSize">@*com.android.settings:dimen/relative_link_text_size</item>
-        <item name="android:textColor">#ff4285f4</item>
+        <item name="android:textColor">#ff1a73e8</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color_primary_dark">#ff4285f4</color>
-    <color name="color_primary_app">#ff4285f4</color>
-    <color name="myfiles_progress_color1">#734285f4</color>
-    <color name="myfiles_progress_color2">#d94285f4</color>
-    <color name="optimize_storage_used">#664285f4</color>
-    <color name="optimize_storage_used_index">#664285f4</color>
-    <color name="optimize_storage_recommended_index">#ff4285f4</color>
+    <color name="color_primary_dark">#ff1a73e8</color>
+    <color name="color_primary_app">#ff1a73e8</color>
+    <color name="myfiles_progress_color1">#731a73e8</color>
+    <color name="myfiles_progress_color2">#d91a73e8</color>
+    <color name="optimize_storage_used">#661a73e8</color>
+    <color name="optimize_storage_used_index">#661a73e8</color>
+    <color name="optimize_storage_recommended_index">#ff1a73e8</color>
     <color name="myfiles_list_folder_icon_tint">#ff737373</color>
     <color name="home_icon_google_drive_color">#ff737373</color>
     <color name="color_primary">#ff6294f1</color>
@@ -28,9 +28,9 @@
     <color name="home_icon_document_bg_color">#00000000</color>
     <color name="home_icon_apk_bg_color">#00000000</color>
     <color name="home_icon_video_bg_color">#00000000</color>
-    <color name="optimize_storage_used_inner_stroke">#ff4285f4</color>
-    <color name="optimize_storage_potential_space">#8c4285f4</color>
-	<color name="actionbar_title_text_color_theme">#ff4285f4</color>
+    <color name="optimize_storage_used_inner_stroke">#ff1a73e8</color>
+    <color name="optimize_storage_potential_space">#8c1a73e8</color>
+	<color name="actionbar_title_text_color_theme">#ff1a73e8</color>
 	<color name="list_column_header_divider_color">#00000000</color>
     <color name="optimize_storage_group_divider">#00000000</color>
     <color name="optimize_storage_overview_divider">#00000000</color>

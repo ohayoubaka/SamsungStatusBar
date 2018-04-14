@@ -3,7 +3,7 @@
 	<style name="SBrowserTitleTextStyle" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
         <item name="android:textSize">18.5sp</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">#ff4285f4</item>
+        <item name="android:textColor">#ff1a73e8</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 	<style name="HelpIntroTheme" parent="@*android:style/Theme.Material.Light">

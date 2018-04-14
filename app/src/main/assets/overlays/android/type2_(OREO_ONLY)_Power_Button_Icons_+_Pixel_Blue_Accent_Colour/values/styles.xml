@@ -166,7 +166,7 @@
         <item name="android:listPreferredItemPaddingStart">?*android:dialogPreferredPadding</item>
         <item name="android:listPreferredItemPaddingEnd">?*android:dialogPreferredPadding</item>
         <item name="android:windowTranslucentNavigation">false</item>
-        <item name="android:colorControlActivated">#1a4285f4</item>
+        <item name="android:colorControlActivated">#1a1a73e8</item>
         <item name="android:colorPrimary">@*android:color/primary_device_default_light</item>
         <item name="android:colorPrimaryDark">@*android:color/sem_color_primary_dark_light</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_light</item>

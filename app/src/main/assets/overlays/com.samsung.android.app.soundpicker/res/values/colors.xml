@@ -2,11 +2,11 @@
 <resources>
 	<color name="action_bar_background_mmapp">#fff5f5f5</color>
 	<color name="sesl_status_bar_color">#17000000</color>
-	<color name="action_bar_search_icon_winset">#ff4285f4</color>
-    <color name="sesl_color_primary_dark">#ff4285f4</color>
-    <color name="sesl_toolbar_text_color_menu">#ff4285f4</color>
-    <color name="sound_player_shortcut_text">#ff4285f4</color>
+	<color name="action_bar_search_icon_winset">#ff1a73e8</color>
+    <color name="sesl_color_primary_dark">#ff1a73e8</color>
+    <color name="sesl_toolbar_text_color_menu">#ff1a73e8</color>
+    <color name="sound_player_shortcut_text">#ff1a73e8</color>
 	<color name="list_item_matched_text_winset">#ff2ae8ff</color>
-    <color name="list_item_playing">#ff4285f4</color>
-    <color name="tab_selected_color">#ff4285f4</color>
+    <color name="list_item_playing">#ff1a73e8</color>
+    <color name="tab_selected_color">#ff1a73e8</color>
 </resources>

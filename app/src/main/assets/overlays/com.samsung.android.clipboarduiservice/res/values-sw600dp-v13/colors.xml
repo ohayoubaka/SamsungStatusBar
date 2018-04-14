@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="clipboard_panel_bg">#fffafafa</color>
-    <color name="drawer_button_text_color">#ff4285f4</color>
-    <color name="button_press_text_color">#ff4285f4</color>
+    <color name="drawer_button_text_color">#ff1a73e8</color>
+    <color name="button_press_text_color">#ff1a73e8</color>
     <color name="sliding_drawer_divider">#00000000</color>
-    <color name="clipboard_arrow_button_color">#ff4285f4</color>
+    <color name="clipboard_arrow_button_color">#ff1a73e8</color>
     <color name="clipboard_memo_background">#fffafafa</color>
     <color name="clipboard_item_multiple_uri_background">#fffafafa</color>
 </resources>

@@ -2,5 +2,5 @@
 <resources>
     <color name="toolbar_statusbar_color">#17000000</color>
     <color name="bottombar_bg_color">#ffffffff</color>
-	<color name="color_control_activated">#ff4285f4</color>
+	<color name="color_control_activated">#ff1a73e8</color>
 </resources>
