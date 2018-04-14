@@ -21,6 +21,7 @@
 	<dimen name="custom_tab_urlbar_height">56.0dip</dimen>
 	<dimen name="website_settings_actionbar_select_all_websites_height">56.0dip</dimen>
 	<dimen name="sbrowser_bookmarks_select_all_text_size">18.5sp</dimen>
-	<dimen name="location_bar_left_icon_margin">2.0dip</dimen>
+	<dimen name="location_bar_left_icon_margin">16.0dip</dimen>
 	<dimen name="location_bar_left_icon_margin_start">0.0dip</dimen>
+	<dimen name="location_bar_bookmarkmark_star_margin_end">-18.0dip</dimen>
 </resources>
