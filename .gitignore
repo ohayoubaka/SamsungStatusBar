@@ -103,3 +103,4 @@ app/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_command.txt
 app/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_output.txt
 app/.externalNativeBuild/ndkBuild/release/x86_64/ndkBuild_build_command.txt
 app/.externalNativeBuild/ndkBuild/release/x86_64/ndkBuild_build_output.txt
+.DS_Store
